@@ -1,5 +1,5 @@
 
-(https://github.com/KiraReys/blog/blob/site/assets/images/bullet.png)
+![](https://github.com/KiraReys/blog/blob/site/assets/images/bullet.png)
 
 # Kira Reys
 
