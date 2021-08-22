@@ -3,17 +3,9 @@ layout: default
 ---
 ![logo](https://github.com/KiraReys/blog/blob/site/assets/images/logo.PNG)
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Kira Reys
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Hello, I am Kira Reys and this is my Blog, currently IN PROGRESS.
 
 ## Header 2
 
