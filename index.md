@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![logo](https://imgur.com/a/xADxKsn)
+![logo](logo.png)
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
