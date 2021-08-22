@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![logo](logo.png)
+![logo](https://github.com/KiraReys/blog/blob/site/assets/images/logo.PNG)
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
