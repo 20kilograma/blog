@@ -1,6 +1,4 @@
----
-layout: default
----
+
 ![logo](https://github.com/KiraReys/blog/blob/site/assets/images/logo.PNG)
 
 # Kira Reys
