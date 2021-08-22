@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+![logo](https://imgur.com/a/xADxKsn)
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
