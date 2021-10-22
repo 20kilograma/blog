@@ -4,6 +4,7 @@ Hello everyone! <br> Today I'm writing my first blog about two really similiar v
 File Inclusions are mostly found in PHP Applications, they are the result of using <code> include() </code> incorrectly 
 (for the most cases). In addition they can be found in Node JS and Python Apps too. People sometimes can't make the difference 
 between those two similiar vulnerabilities, that's okay because in today's blog I'll try to explain it on some easy examples.
+<br>
 Let's see now:
 <br>
 In the easiest way if we want to explain it
