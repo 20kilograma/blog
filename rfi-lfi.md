@@ -7,7 +7,7 @@ between those two similiar vulnerabilities, that's okay because in today's blog 
 <br>
 Let's see now:
 <br>
-In the easiest way if we want to explain it
+In the easiest way if we want to explain it, we'll say it like this <br>
 When hacker is exploiting RFI he uses a Remote File while on the other side LFI uses local files when they are attacking server,
 even the name of the vulnerability tells you that. While exploiting LFI you can get response from the local files on system, 
 for example <code> /etc/passwd </code> or <code> /etc/shadow </code>.
