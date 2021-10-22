@@ -30,6 +30,6 @@ File Inclusion Vulnerabilities are ranked critical since they can cause server-s
 <a href="https://tryhackme.com/room/inclusion"> TryHackMe </a> <br> <br>
 <a href="https://dvwa.co.uk/"> DVWA </a> <br> <br>
 
-That was it for this blog, I hope you enjoyed it and would like you to follow my <a href="https://twitter.com/ArikSyer"> Twitter </a>
-so you get notified when I post another blog.
+That was it for this blog, I hope you enjoyed it and would like you to follow my <a href="https://twitter.com/ArikSyer">Twitter</a>
+ so you get notified when I post another blog.
 
