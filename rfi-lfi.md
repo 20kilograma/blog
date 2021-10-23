@@ -1,4 +1,4 @@
-# <center> RFI and LFI, how to find them and what’s the difference between them? </center>
+# <center> RFI and LFI, explained and what’s the difference between them? </center>
 
 Hello everyone! <br> Today I'm writing my first blog about two really similiar vulnerabilities.
 File Inclusions are mostly found in PHP Applications, they are the result of using <code> include() </code> incorrectly 
