@@ -34,6 +34,6 @@ File Inclusion Vulnerabilities are ranked critical since they can cause server-s
 <a href="https://dvwa.co.uk/"> DVWA </a> <br> <br>
 
 That was it for this blog, I hope you enjoyed it and would like you to follow my <a href="https://twitter.com/ArikSyer">Twitter</a>
- so you get notified when I post another blog. Oh yeah I almost forgot, don't forget to join a <a href="discord.gg/bugbounty">Discord Bug Bounty</a> server with great community there, you can ask
+ so you get notified when I post another blog. Oh yeah I almost forgot, don't forget to join a <a href="https://discord.gg/bugbounty">Discord Bug Bounty</a> server with great community there, you can ask
  for help there if you need it.
 
