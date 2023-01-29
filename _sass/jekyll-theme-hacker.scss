@@ -159,6 +159,10 @@ blockquote {
   border-left: 1px dotted $blockquote-border;
 }
 
+code { 
+  background: #142E36;
+}
+
 pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
