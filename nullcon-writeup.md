@@ -12,7 +12,7 @@ This was the Description of TYpicalBoss Challenge: <br>
 My boss just implemented his first PHP website. He mentioned that he managed to calculate a hash that is equal to 0??? I suppose he is not very experienced in PHP yet.
 </code> after I read that I looked up at / and there were some files there and one important there was the .db file, I downloaded that file and opened it. <br>
 I saw the Hash of the password from admin and already knew what it was about since I already did <a href="https://secops.group/php-type-juggling-simplified/" target="_blank">PHP Type Juggling</a> challenges. <br>
-<img src="/assets/images/dbfile.PNG" />
+<img src="/assets/images/dbfile.png" />
 
 
 
