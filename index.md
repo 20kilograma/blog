@@ -4,5 +4,5 @@ Hello, I'm Kira Reys and I am interested in IT Stuff. I love learning new stuff 
 
 # >> Blogs and Write-ups
 
-### <a href="blog/nullcon-writeup"> > Nullcon Web Challenges Writeup </a>
+### <a href="nullcon-writeup"> > Nullcon Web Challenges Writeup </a>
 ### <a href="blog/rfi-lfi"> > RFI and LFI, explained and what's the difference between them </a>
