@@ -38,6 +38,23 @@ Another flag: <code>ENO{N3ver_3xtract_ok?}</code>
 
 # > IPfilter
 
+This one was the same thing, there was nothing on the landing page, again check the source code and got the URL for Source Code 🙂 <br>
+![image](https://github.com/KiraReys/blog/assets/44244085/d4267c0f-2275-48b5-a1f5-0922452c3de5)<br>
+A bit longer source, but there are three parameters
+![image](https://github.com/KiraReys/blog/assets/44244085/a08d0577-bda8-4193-815b-7aa0a2dd0b11)<br>
+bip one is where we are typing the IP and that IP gets fetched + we get the all the information (if we put debug_filter to 1) like it's shown on that Picture above. <br>
+If that IP is not allowed which is for example the IP for backend with secrets <code>192.168.112.3</code> or any other not local ip it will give you an error message. <br>
+We had to bypass it somehow to fetch the <code>192.168.112.3</code>. I first looked at the regex check: <br>
+![image](https://github.com/KiraReys/blog/assets/44244085/67092763-e7fe-4df9-b43a-bfb98989426a)<br>
+It's simple regex, you can type up to 3 numbers there and the first thing I tried was adding a 0 before the 3, so the IP looks like this now: <code>192.168.112.03</code> <br>
+There should be check for 192.168.112.03 and 003 too but there isn't and it didn't list it as bad IP <br>
+![image](https://github.com/KiraReys/blog/assets/44244085/e992f16a-aba2-4ad5-bafc-d362ce171268) <br>
+Flag 🥳: <code>ENO{Another_Fl4G_something_IP_STuff!}</code> 
+
+
+
+
+
 
 
 
