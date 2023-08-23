@@ -30,7 +30,7 @@ I visited that page and this is the source: <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/ed9a77c1-9fbd-45fc-89b2-4a0024951507)
 <br>
 First thing I was focused on was this <code>is_admin</code> check and thought it may have had something to do with some host headers but it didn't work, later I focused on the whole code<br>
-and I noticed the insecure usage of <code>extract();</code> storing it in <code>debug_info</code> which is later getting loaded, so we could exploit this by using this <code>extract()</code> to overwrite<br>
+and I noticed the <a href="https://www.codementor.io/@hayeskier/php-functions-makes-your-site-vulnerable-172bxpju01">insecure usage</a> of <code>extract();</code> storing it in <code>debug_info</code> which is later getting loaded, so we could exploit this by using this <code>extract()</code> to overwrite<br>
 <code>is_admin</code> to 1, and that's exatcly what I did.<br>
 <code>http://52.59.124.14:10018/?action=debug&filters[is_admin]=1</code><br>
 Another flag: <code>ENO{N3ver_3xtract_ok?}</code>
