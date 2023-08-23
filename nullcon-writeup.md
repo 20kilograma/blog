@@ -1,4 +1,4 @@
-![image](https://github.com/KiraReys/blog/assets/44244085/488bc666-83ee-4829-acf7-5cdcab5a7042)# <center> NULLCON CTF Web Writeups </center>
+# <center> NULLCON CTF Web Writeups </center>
 
 Hello everyone! <br> Today I'm writing my writeup for the CTF Challenges on Nullcon that I've done.
 Those challenges are all Web related and these are the challenges I've done: <code>TYpicalBoss</code>, <code>Debugger</code>, <code>IPfilter</code>, <code>Colorful</code>, <code>Magic Cars</code>.
