@@ -61,7 +61,7 @@ id is random generated 8 charachters long hex string. <br>
 AES encrypts data in 16 bytes so our admin string gets splited and in two halves, <code>adm</code> and <code>in=0</code>. So we could exploit this since there is no length check on the color parameter.<br>
 We get our encrypted cookie and we send the request to the <code>/color/fffffin=1</code> enpoint, we gather that cookie and we change the placing of our cookie, we add to the previous cookie on the 32<br>
 place the 64~till the end - charachters of our cookie from that endpoint and then we just continue our normal cookie with all the left charachters from 32 till 64. <br>
-Now we are supposed to have cookie with admin=1 and if we try to visi the page, yes!<br>
+Now we are supposed to have cookie with <code>admin=1</code> and if we try to visi the page, yes!<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/509ad392-5552-4dbf-903a-04076ae76cb0)<br>
 Yet another flag: <code>ENO{W3B_H4S_Crypt0!}</code>
 
