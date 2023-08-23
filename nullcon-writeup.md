@@ -43,7 +43,7 @@ This one was the same thing, there was nothing on the landing page, again check 
 A bit longer source, but there are three parameters<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/a08d0577-bda8-4193-815b-7aa0a2dd0b11)<br>
 bip one is where we are typing the IP and that IP gets fetched + we get the all the information (if we put debug_filter to 1) like it's shown on that Picture above. <br>
-If that IP is not allowed which is for example the IP for backend with secrets <code>192.168.112.3</code> or any other IP that's not IPv4 it will give you an error message. <br>
+If that IP is not allowed which is for example the IP for backend with secrets <code>192.168.112.3</code> or any other IP which is not IPv4 will give you an error message. <br>
 We had to bypass it somehow to fetch the <code>192.168.112.3</code>. I first looked at the regex check: <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/67092763-e7fe-4df9-b43a-bfb98989426a)<br>
 It's simple regex, you can type up to 3 numbers there and the first thing I tried was adding a 0 before the 3, so the IP looks like this now: <code>192.168.112.03</code> <br>
