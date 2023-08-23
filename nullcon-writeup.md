@@ -54,7 +54,7 @@ Flag 🥳: <code>ENO{Another_Fl4G_something_IP_STuff!}</code>
 
 # > Colorful
 
-This challenge has actually Python source and not PHP, this time the source code was on the landing page, it was quite long source code but the important part is this one here:
+This challenge has actually Python source and not PHP, this time the source code was on the landing page, it was quite long source code but the important part is this one here:<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/ad73bd5c-220b-4896-8198-e12b5cc7054a)<br>
 If we get <code>admin=1</code> in our session, then we get the flag. Our session is AES ECB encrypted string of <code>_id={id}&admin={0/1}&color={hexcode}&</code><br>
 id is random generated 8 charachters long hex string.
