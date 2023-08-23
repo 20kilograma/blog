@@ -56,6 +56,7 @@ Flag 🥳: <code>ENO{Another_Fl4G_something_IP_STuff!}</code>
 
 This challenge has actually Python source and not PHP, this time the source code was on the landing page, looks like this:
 <code>
+
 from flask import Flask, redirect, request, after_this_request
 import os
 import json
@@ -157,7 +158,7 @@ def index():
         return response
 
     return f"
-    </code>
+</code>
  
 
 
