@@ -18,6 +18,10 @@ I tried figuring out the hashing algorithm by adding [] to the username/password
 <img src="phperrorarray.png"><br>
 I actually succeded, it's sha1! <br>After some Google Search I found this <code>10932435112</code> "Magic" Number that should work with sha1 algorithm and guess what, it actually worked.
 ![flagfoundtypicalboss](https://github.com/KiraReys/blog/assets/44244085/b2313ac3-9cb8-48ee-ab21-73a103c34c2e)
+<br>
+I got the flag 😁: <code>ENO{m4ny_th1ng5_c4n_g0_wr0ng_1f_y0u_d0nt_ch3ck_typ35}</code>
+<br>
+# > Debugger
 
 
 
