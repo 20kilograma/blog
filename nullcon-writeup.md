@@ -40,7 +40,7 @@ Another flag: <code>ENO{N3ver_3xtract_ok?}</code>
 
 This one was the same thing, there was nothing on the landing page, again check the source code and got the URL for Source Code 🙂 <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/d4267c0f-2275-48b5-a1f5-0922452c3de5)<br>
-A bit longer source, but there are three parameters
+A bit longer source, but there are three parameters<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/a08d0577-bda8-4193-815b-7aa0a2dd0b11)<br>
 bip one is where we are typing the IP and that IP gets fetched + we get the all the information (if we put debug_filter to 1) like it's shown on that Picture above. <br>
 If that IP is not allowed which is for example the IP for backend with secrets <code>192.168.112.3</code> or any other not local ip it will give you an error message. <br>
