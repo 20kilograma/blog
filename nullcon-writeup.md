@@ -64,6 +64,21 @@ place the 64~till the end - charachters of our cookie from that endpoint and the
 Now we are supposed to have cookie with <code>admin=1</code> and if we try to visit the page, yes!<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/509ad392-5552-4dbf-903a-04076ae76cb0)<br>
 Yet another flag: <code>ENO{W3B_H4S_Crypt0!}</code>
+<br>
+
+# > Magic Cars
+
+This is the only challenge till now that involves blackbox-approach. We have file upload in the gallery there we can only upload GIF. <br>
+We need to bypass that in order to upload .php and the bypass was pretty easy <code>%00</code> just a null byte charachter. <br>
+![image](https://github.com/KiraReys/blog/assets/44244085/d55f29f7-231f-4cc4-abb5-aa2920c3e59f)<br>
+This is how the request looks like, if we visit <code>/images/asdf.php</code> we get the flag!. <br>
+![image](https://github.com/KiraReys/blog/assets/44244085/1dae90b9-6c64-4e51-a899-87f555a5a137)<br>
+Last Flag: <code>ENO{4n_uplo4ded_f1l3_c4n_m4k3_wond3r5}</code>
+<br><hr>
+Thank you for reading this Writeup, appreciate it <3 and I'll soon write more!
+
+
+
 
 
 
