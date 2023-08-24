@@ -58,7 +58,7 @@ This challenge has actually Python source and not PHP, this time the source code
 ![image](https://github.com/KiraReys/blog/assets/44244085/ad73bd5c-220b-4896-8198-e12b5cc7054a)<br>
 If we get <code>admin=1</code> in our session, then we get the flag. Our session is AES ECB encrypted string of <code>_id={id}&admin={0/1}&color={hexcode}&</code><br>
 id is random generated 8 charachters long hex string. <br>
-AES encrypts data in 16 bytes so our admin string gets splited and in two halves, <code>adm</code> and <code>in=0</code>. So we could exploit this since there is no length check on the color parameter.<br>
+AES encrypts data in 16 bytes so our admin string gets splited in two halfs, <code>adm</code> and <code>in=0</code>. So we could exploit this since there is no length check on the color parameter.<br>
 We get our encrypted cookie and we send the request to the <code>/color/fffffin=1</code> enpoint, we gather that cookie and we change the placing of our cookie, we add to the previous cookie on the 32<br>
 place the 64~till the end - charachters of our cookie from that endpoint and then we just continue our normal cookie with all the left charachters from 32 till 64. <br>
 Now we are supposed to have cookie with <code>admin=1</code> and if we try to visit the page, yes!<br>
