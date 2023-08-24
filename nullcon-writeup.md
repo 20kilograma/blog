@@ -68,7 +68,7 @@ Yet another flag: <code>ENO{W3B_H4S_Crypt0!}</code>
 
 # > Magic Cars
 
-This is the only challenge till now that involves blackbox-approach. We have file upload in the gallery there we can only upload GIF. <br>
+This is the only challenge till now where we need to download the source code. We have file upload in the gallery there we can only upload GIF. <br>
 We need to bypass that in order to upload .php and the bypass was pretty easy <code>%00</code> just a null byte charachter. <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/d55f29f7-231f-4cc4-abb5-aa2920c3e59f)<br>
 This is how the request looks like, if we visit <code>/images/asdf.php</code> we get the flag! <br>
