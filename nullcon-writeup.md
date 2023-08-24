@@ -74,8 +74,8 @@ We need to bypass that in order to upload .php and the bypass was pretty easy <c
 This is how the request looks like, if we visit <code>/images/asdf.php</code> we get the flag! <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/1dae90b9-6c64-4e51-a899-87f555a5a137)<br>
 Last Flag: <code>ENO{4n_uplo4ded_f1l3_c4n_m4k3_wond3r5}</code>
-<br><hr>
-Thank you for reading this Writeup, appreciate it <3 and I'll soon write more!
+<br>
+## Thank you for reading this Writeup, appreciate it <3 and I'll soon write more!
 
 
 
