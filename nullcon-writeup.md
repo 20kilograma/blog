@@ -5,7 +5,7 @@ Those challenges are all Web related and these are the challenges I've done: <co
 <br>
 Let's see now:
 <br>
-# > TYpicalBoss
+# >> TYpicalBoss
 This was probably the easiest one of all, since I already did some CTFs where <a href="https://secops.group/php-type-juggling-simplified/" target="_blank">PHP Type Juggling</a> was the key to it. <br>
 This was the Description of TYpicalBoss Challenge: <br>
 <code>
@@ -22,7 +22,7 @@ I actually succeded, it's sha1! <br>After some Google Search I found this <code>
 I got the flag 😁: <code>ENO{m4ny_th1ng5_c4n_g0_wr0ng_1f_y0u_d0nt_ch3ck_typ35}</code>
 <br>
 
-# > Debugger
+# >> Debugger
 
 The next challenge had nothing on the landing page so I first checked the source code <br>![image](https://github.com/KiraReys/blog/assets/44244085/14d184a5-a33c-4a5d-9905-b6c8771585dd)
 <br>
@@ -36,7 +36,7 @@ and I noticed the <a href="https://www.codementor.io/@hayeskier/php-functions-ma
 Another flag: <code>ENO{N3ver_3xtract_ok?}</code>
 <br>
 
-# > IPfilter
+# >> IPfilter
 
 This one was the same thing, there was nothing on the landing page, again check the source code and got the URL for Source Code 🙂 <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/d4267c0f-2275-48b5-a1f5-0922452c3de5)<br>
@@ -52,7 +52,7 @@ There should be check for 192.168.112.03 and 003 too but there isn't and it didn
 Flag 🥳: <code>ENO{Another_Fl4G_something_IP_STuff!}</code> 
 <br>
 
-# > Colorful
+# >> Colorful
 
 This challenge has actually Python source and not PHP, this time the source code was on the landing page, it was quite long source code but the important part is this one here:<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/ad73bd5c-220b-4896-8198-e12b5cc7054a)<br>
@@ -66,7 +66,7 @@ Now we are supposed to have cookie with <code>admin=1</code> and if we try to vi
 Yet another flag: <code>ENO{W3B_H4S_Crypt0!}</code>
 <br>
 
-# > Magic Cars
+# >> Magic Cars
 
 This is the only challenge till now where we need to download the source code. We have file upload in the gallery there we can only upload GIF. <br>
 We need to bypass that in order to upload .php and the bypass was pretty easy <code>%00</code> just a null byte charachter. <br>
