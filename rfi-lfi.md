@@ -23,12 +23,12 @@ you never know 🙂. <br>
 <br>
 File Inclusion Vulnerabilities are ranked critical since they can cause server-side injections and in most cases you can get RCE.
 
-# > Some File Inlusion Reports:
+# >> Some File Inlusion Reports:
 <a href="https://hackerone.com/reports/59665"> Local File Inclusion Vulnerability in Concrete5 version 5.7.3.1 </a> <br> <br>
 <a href="https://hackerone.com/reports/895972"> Limited LFI </a> <br> <br>
 <a href="https://bugreader.com/updatelap@local-file-inclusion-in-peeringgooglecom-70"> Local File Inclusion in peering.google.com </a> <br> <br>
 
-# > Some More Content About File Inclusions
+# >> Some More Content About File Inclusions
 <a href="https://book.hacktricks.xyz/pentesting-web/file-inclusion"> HackTricks </a> <br> <br>
 <a href="https://tryhackme.com/room/inclusion"> TryHackMe </a> <br> <br>
 <a href="https://dvwa.co.uk/"> DVWA </a> <br> <br>
