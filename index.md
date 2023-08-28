@@ -1,6 +1,6 @@
 # >> About | Kira Reys (20kilograma)
 
-<img width=255 height=344 src="https://github.com/KiraReys/blog/assets/44244085/d30f24ff-7a10-4dca-99cc-b6665da64659">
+<img style="border-radius: 30px;" width=255 height=344 src="https://github.com/KiraReys/blog/assets/44244085/d30f24ff-7a10-4dca-99cc-b6665da64659">
 
 <ul>
   <li>18/yo from Germany</li>
