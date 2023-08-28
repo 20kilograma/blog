@@ -4,7 +4,7 @@
   <li>18/yo from Germany</li>
   <li>Bug Bounty Hunter</li>
   <li>Web Dev</li>
-  <li><a href=""><img src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dgsrzgjf4paklpbom6uj"></a></li>
+  <li><a href=""><img width=30 height=30 src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dgsrzgjf4paklpbom6uj"></a></li>
 </ul>
 
 # >> Blogs and Write-ups
