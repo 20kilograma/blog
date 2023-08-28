@@ -9,7 +9,7 @@
   <li></li>
   <br>
   <a href=""><img width=30 height=30 src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dgsrzgjf4paklpbom6uj"></a>
-  <a href=""><img width=30 height=30 src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg"></a>
+  <a target="_blank" href="https://twitter.com/kirareysV2"><img width=30 height=30 src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg"></a>
 </ul>
 
 # >> Blogs and Write-ups
