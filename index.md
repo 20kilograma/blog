@@ -5,7 +5,7 @@
   <li>Bug Bounty Hunter</li>
   <li>Web Dev</li>
   <a href=""><img width=30 height=30 src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dgsrzgjf4paklpbom6uj"></a>
-  <a href=""><img width=30 height=30 src="https://cdn.icon-icons.com/icons2/3406/PNG/512/twitter_logo_icon_216442.png"></a>
+  <a href=""><img width=30 height=30 src="https://cdn-icons-png.flaticon.com/512/60/60580.png"></a>
 </ul>
 
 # >> Blogs and Write-ups
