@@ -6,4 +6,4 @@ It was Stored XSS on a target which is something let's say, like a Social Media 
 <hr>
 
 I was editing one parameter that is directly displayed on your Profile Page. I noticed that the input is stored like this: <br>
-<code>&lt;a class="..." href="..." title="YOUR_INPUT_HERE"&gt;YOUR_INPUT_HERE&lt;/a&gt;</code>
+<code>&lt;a class="..." href="..." title="<i>YOUR_INPUT_HERE</i>"&gt;<i>YOUR_INPUT_HERE</i>&lt;/a&gt;</code>
