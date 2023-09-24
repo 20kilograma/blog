@@ -7,7 +7,7 @@ It was Stored XSS on a target which is something let's say, like a Social Media 
 I was editing one parameter that is directly displayed on your Profile Page. I noticed that the input is stored like this: <br>
 <code>&lt;a class="..." href="..." title="<i>YOUR_INPUT_HERE</i>"&gt;<i>YOUR_INPUT_HERE</i>&lt;/a&gt;</code> <br> <br>
 Whenever you see that your input is being stored in an attribute you should always try to escape that and then do the other part of the magic. <br>
-I tried adding <code>"</code> and it was a success, I escaped the " now the source looked like this: <br>
+I tried adding <code>"</code> and it was a successful, I escaped the " now the source looked like this: <br>
 <code>&lt;a class="..." href="..." title="" "&gt;<i>"</i>&lt;/a&gt;</code> <br>
 Notice that there is another <code>"</code> left so our payload would look like this: <code>"onload="alert()</code> because if we didn't put these quotes before alert <br>
 our alert wouldn't execute it would look like this <code>onload=alert()"</code> and that is an error. Now if we add <code>"</code> before the alert the full source would be like this <br>
