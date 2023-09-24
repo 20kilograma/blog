@@ -3,7 +3,7 @@
 Hello, Today I will be writing about a bug I've found a year ago on VDP. <br>
 It was Stored XSS on a target which is something let's say, like a Social Media Platform. <br>
 <hr>
-# Bug Explained
+# >> Bug Explained
 I was editing one parameter that is directly displayed on your Profile Page. I noticed that the input is stored like this: <br>
 <code>&lt;a class="..." href="..." title="<i>YOUR_INPUT_HERE</i>"&gt;<i>YOUR_INPUT_HERE</i>&lt;/a&gt;</code> <br>
 Whenever you see that your input is being storing in an attribute you should always try to escape that and then do the other part of the magic. <br>
@@ -16,4 +16,6 @@ BUT it didn't work, the alert didn't fire, there are filters for event handlers 
 After few minutes I got an event handler that is not filtered <code>onmouseover</code>, now the payload looked like this <code>"onmouseover="alert()</code> <br>
 It worked alter fired when I hover with my cursor over that anchor tag 😌. <br>
 I had a good <strong>Impact</strong> there since HttpOnly wasn't set and I could steal victims Cookies, there were some sensitive Information in cookies too. <br>
-You can also redirect victim to other pages, do SpearPhising, chain it with something else... was a High P2 if you ask me.
+You can also redirect victim to other pages, do SpearPhising, chain it with something else... good, P2(High). <
+
+# Thank you for reading this Writeup, appreciate it <3
