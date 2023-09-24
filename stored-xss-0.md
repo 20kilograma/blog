@@ -14,7 +14,7 @@ our alert wouldn't execute it would look like this <code>onload=alert()"</code> 
 <code>&lt;a class="..." href="..." title="" onload="alert()"&gt;<i>"onload="alert()</i>&lt;/a&gt;</code> <br><br>
 BUT it didn't work, the alert didn't fire, there are filters for event handlers on the website. Here at this point I've started trying all the event handlers. <br>
 After few minutes I got an event handler that is not filtered <code>onmouseover</code>, now the payload looked like this <code>"onmouseover="alert()</code> <br>
-It worked alter fired when I hover with my cursor over that anchor tag 😌. <br><br>
+It worked, alert fired when I hovered with my cursor over that anchor tag 😌. <br><br>
 I had a good <strong>Impact</strong> there since HttpOnly wasn't set and I could steal victims Cookies, there were some sensitive Information in cookies too. <br>
 You can also redirect victim to other pages, do SpearPhising, chain it with something else... good, P2(High). <
 
