@@ -19,4 +19,3 @@
 
 ### <a href="stored-xss-0"> > Stored XSS on [REDACTED] - Profile Page | Bug Bounty </a>
 ### <a href="nullcon-writeup"> > Nullcon Web Challenges Writeup </a>
-### <a href="rfi-lfi"> > RFI and LFI, explained and what's the difference between them </a>
