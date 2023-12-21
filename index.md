@@ -18,4 +18,4 @@
 
 # >> Blogs and Write-ups
 
-### <a href="nullcon-writeup"> > Nullcon Web Challenges Writeup </a>
+### <a href="nullcon-writeup"> > Nullcon-CTF [2023] Web Challenges Writeup </a>
