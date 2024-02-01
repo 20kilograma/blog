@@ -21,7 +21,7 @@ body {
   color: $body-foreground;
   font-size: 18.5px;
   line-height: 1.5;
-  font-family: 'LilGroteskRegular';
+  font-family: monospace;
 }
 
 /* General & 'Reset' Stuff */
@@ -64,7 +64,7 @@ header h1 {
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
-  font-family: 'LilGroteskRegular';
+  font-family: monospace;
   color: $conifer;//$header;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -107,7 +107,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: 'LilGroteskRegular';
+  font-family: monospace;
   color: $header;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
