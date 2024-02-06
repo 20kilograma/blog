@@ -1,2 +1,3 @@
-# PHP, its Security, 
-![image](https://github.com/KiraReys/blog/assets/44244085/ab298188-486f-46de-82f7-cfee0af07d9b)
+# PHP - its security beyond SQLi and XSS, little history of flaws, vulnerable code examples and much more
+![image](https://github.com/KiraReys/blog/assets/44244085/7a2226e3-78a6-4209-b32a-2aaf1705dad7)
+
