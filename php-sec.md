@@ -1,5 +1,5 @@
 # <center>PHP beyond SQLi (detailed) - its security, flaws and vulnerable code examples</center>
-<img src="https://github.com/KiraReys/blog/assets/44244085/7a2226e3-78a6-4209-b32a-2aaf1705dad7" width=1000 height=200>
+<img src="https://github.com/KiraReys/blog/assets/44244085/7a2226e3-78a6-4209-b32a-2aaf1705dad7" width=1000 height=300>
 
 <br>
 
