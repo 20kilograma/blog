@@ -1,4 +1,4 @@
-# <center>PHP beyond SQLi (detailed) - its security, flaws and vulnerable code examples</center>
+# <center>PHP beyond SQLi (detailed) - its security, vulnerable code examples & improvement </center>
 ![image](https://github.com/KiraReys/blog/assets/44244085/8a52accc-7544-490c-858b-5da4b2031fac)
 
 
