@@ -9,3 +9,7 @@ in the early versions of PHP was its Security. Early versions of PHP didn't have
 If someone is wondering why the name of this blog is "PHP beyond SQLi", I just wanted to make a little joke because many developers (I'm talking about those devs that blame PHP when it comes to security) today only think about SQL Injection and preparing the statements because they heard they should do that, and maybe they heard about XSS too.
 
 # >> Content
+<ul>
+## <li>PHP OWASP Top 10</li>
+  <li>test</li>
+</ul>
