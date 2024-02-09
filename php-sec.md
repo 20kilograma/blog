@@ -12,6 +12,6 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
 <ul>
   <li>PHP OWASP Top 10</li>
   <li>Less Popular Bugs in PHP</li>
-  <li>Tips to find more bugs</li>
+  <li>Tips to bugs</li>
   <li>Writing Secure code</li>
 </ul>
