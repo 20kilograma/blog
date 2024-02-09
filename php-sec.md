@@ -24,6 +24,10 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
     <li>XML External Entity (XXE) Injection</li>
   </ul>
   <li>Less Popular Bugs in PHP</li>
+  <ul>
+    <li>Type Juggling</li>
+    <li>Rate</li>
+  </ul>
   <li>Tips to find bugs</li>
   <li>Writing Secure code</li>
 </ul>
