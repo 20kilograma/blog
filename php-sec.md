@@ -26,7 +26,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
   <li>Less Popular Bugs</li>
   <ul>
     <li>Type Juggling</li>
-    <li>Rate</li>
+    <li>Rate-limit issues</li>
   </ul>
   <li>Tips to find bugs</li>
   <li>Writing Secure code</li>
