@@ -23,7 +23,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
     <li>Insecure Direct Object References(IDOR)</li>
     <li>XML External Entity (XXE) Injection</li>
   </ul>
-  <li>Less Popular Bugs in PHP</li>
+  <li>Less Popular Bugs</li>
   <ul>
     <li>Type Juggling</li>
     <li>Rate</li>
