@@ -30,6 +30,6 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
     <li>PHP Object Injection(Insecure Deserialization)</li>
     <li>Integer & Float Overflow/Underflow</li>
   </ul>
-  <li>Tips to find bugs</li>
-  <li>Writing Secure code</li>
+  <li>Tips to write less vulnerable code</li>
+  <li>Conclusion</li>
 </ul>
