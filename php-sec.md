@@ -10,7 +10,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
 
 # >> Outline
 <ul>
-  <li>PHP OWASP Top 10</li>
+  <li>Popular Bugs</li>
   <ul>
     <li>Cross-Site Scripting(XSS)</li>
     <li>SQL Injection</li>
@@ -18,15 +18,17 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
     <li>File Inclusion/Path Traversals</li>
     <li>Cross-Site Scripting(XSS)</li>
     <li>Server-Side Request Forgery(SSRF)</li>
-    <li>Sessions related issues</li>
-    <li>Remote Code Execution(RCE)/Code Injection</li>
+    <li>Remote Code Execution(RCE) & Code Injection</li>
     <li>Insecure Direct Object References(IDOR)</li>
-    <li>XML External Entity (XXE) Injection</li>
+    <li>XML External Entity(XXE) Injection</li>
   </ul>
   <li>Less Popular Bugs</li>
   <ul>
     <li>Type Juggling</li>
     <li>Rate-limit issues</li>
+    <li>Sessions related issues</li>
+    <li>PHP Object Injection(Insecure Deserialization)</li>
+    <li>Integer & Float Overflow/Underflow</li>
   </ul>
   <li>Tips to find bugs</li>
   <li>Writing Secure code</li>
