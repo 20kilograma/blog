@@ -34,3 +34,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
   <li>Tips to write less vulnerable code</li>
   <li>Conclusion</li>
 </ul>
+
+## Cross-Site Scripting(XSS)
+
+We are starting with the easiest one and, at the same time, the most common vulnerability. If we search for XSS on <a href="www.hackerone.com" target="_blank">Hackerone</a>, we can see <i>~2500</i> pages in the results, which is an insane number if you think about it for just one platform. XSS is very underestimated, even today, and can be achieved in various ways. I'll cover the basics here, including dos and don'ts, along with a few examples.
