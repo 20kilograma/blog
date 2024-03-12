@@ -39,18 +39,18 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
 We are starting with the easiest one and, at the same time, the most common vulnerability that has been really long out there. If we search for XSS on <a href="https://www.hackerone.com" target="_blank">Hackerone</a>, we can see <i>~2500</i> pages in the results, which is an insane number if you think about it for just one platform. XSS is very underestimated, even today, and can be achieved in various ways. I'll cover the basics here, including dos and don'ts, along with a few examples. <br>
 There are three main types/classifications of XSS: Reflected, Stored and DOM XSS. We are only interested in the first two (Reflected and Stored) because the third one happens when the DOM gets manipulated into executing arbitary JavaScript and it arises in the client-side code, so it's not of our interest. It's very easy to tell the difference between Reflected and Stored XSS, Reflected happens when an attacker injects his payload. We don't handle it appropriately, and it gets now reflected on our website but not stored, unlike in a case of Stored. It's okay if you don't understand; we'll make an easy example here.
 
-<code>GET /app.php?username=&lt;script>alert()&lt;/script> HTTP/1.1
-Host: example.com
-Accept: */*
+<code>GET /app.php?username=&lt;script>alert()&lt;/script> HTTP/1.1<br>
+Host: example.com<br>
+Accept: */*<br>
 </code>
 
 and then we get something like this in the response:
 
-<code>HTTP/1.1 200 OK
-Connection: Keep-Alive
-Content-Type: text/html; charset=UTF-8
+<code>HTTP/1.1 200 OK<br>
+Connection: Keep-Alive<br>
+Content-Type: text/html; charset=UTF-8<br><br>
 
-Hello, &lt;script>alert()&lt;/script>
+Hello, &lt;script>alert()&lt;/script><br>
 </code>
 
 As you maybe have guessed, in this case it's Reflected XSS. It's not getting stored or saved somewhere so there is no way for it to be <u>persistently</u> there (fun fact other name for Stored XSS is Persistent XSS).
