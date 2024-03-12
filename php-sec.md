@@ -49,7 +49,6 @@ and then we get something like this in the response:
 <code>HTTP/1.1 200 OK<br>
 Connection: Keep-Alive<br>
 Content-Type: text/html; charset=UTF-8<br><br>
-
 Hello, &lt;script>alert()&lt;/script><br>
 </code>
 
