@@ -82,8 +82,7 @@ The most simple example is a Social Media Application with the functionality to 
 <code>POST /app.php HTTP/1.1<br>
 Host: example.com<br>
 Content-Type: application/x-www-form-urlencoded<br><br>
-
-title=&lt;script>alert()&lt;/script>&content=test
+title=&lt;script>alert()&lt;/script>&content=test<br>
 </code>
 
 In this case the <i>title</i> parameter is vulnerable to XSS.
