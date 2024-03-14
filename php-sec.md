@@ -77,7 +77,7 @@ An Attacker may try to escape it with double quotes
 but that won't work because the double quotes are escaped too. <br>
 The point of the story is to always properly handle the user-supplied input. Vanilla PHP is not frequently used today for new projects, but PHP frameworks like Laravel or Symfony are go-to, so we will make few examples with Laravel too. You are probably asking yourself now, when is the XSS stored? <br>
 It's simple, there must be some kind of storage (to a database, as some file, e.g.), and then later the victim receives that malicious data. <br>Most simple example for that
-Social Media Application with a functionality to create a new post with <i>title</i> and <i>content</i>.
+The most simple example is a Social Media Application with the functionality to create a new post with a <i>title</i> and <i>content</i>.
 
 <code>POST /app.php HTTP/1.1<br>
 Host: example.com<br>
