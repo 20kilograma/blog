@@ -52,4 +52,4 @@ Content-Type: text/html; charset=UTF-8<br><br>
 Hello, &lt;script>alert()&lt;/script><br>
 </code>
 
-As you may have guessed, in this case it's Reflected XSS. It's not getting stored or saved somewhere, so there is no way for it to be <u>persistently</u> there (fun fact: the other name for Stored XSS is Persistent XSS, hopefully it makes more sense).
+As you may have guessed, in this case it's Reflected XSS. It's not getting saved somewhere, so there is no way for it to be <u>persistently</u> there (fun fact: the other name for Stored XSS is Persistent XSS, hopefully it makes more sense that way).
