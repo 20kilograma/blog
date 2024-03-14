@@ -70,4 +70,7 @@ Now there is no way to inject a new tag or escape something, for example, if the
 <code>
 &lt;input value="USER_SUPPLIED_INPUT">
 </code>
-An Attacker may try to escape it with double quotes <code> &lt;input value="" MALICIOUS"> </code> but that won't work because quotes are escaped too.
+An Attacker may try to escape it with double quotes
+<code> &lt;input value="" MALICIOUS"> </code> 
+but that won't work because double quotes are escaped too. <br>
+The point of the story is to always properly handle the user-supplied input. Vanilla PHP is not
