@@ -85,5 +85,5 @@ Content-Type: application/x-www-form-urlencoded<br><br>
 title=&lt;script>alert()&lt;/script>&content=test<br>
 </code>
 
-In this case the <i>title</i> parameter is vulnerable to XSS.
+In this case the <i>title</i> parameter is vulnerable to XSS. That post stays forever there, and it has way more impact because now the attacker doesn't have to lure the victim to visit his link.
 
