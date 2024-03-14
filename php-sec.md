@@ -54,4 +54,15 @@ Content-Type: text/html; charset=UTF-8<br><br>
 Hello, &lt;script>alert()&lt;/script><br>
 </code>
 
-As you may have guessed, in this case it's Reflected XSS. It's not getting saved somewhere, so there is no way for it to be <u>persistently</u> there (fun fact: the other name for Stored XSS is Persistent XSS, hopefully it makes more sense that way).
+As you may have guessed, in this case it's Reflected XSS. It's not getting saved somewhere, so there is no way for it to be <u>persistently</u> there (fun fact: the other name for Stored XSS is Persistent XSS, hopefully it makes more sense that way).<br> Ok now, let's fix that now by using <code>htmlspecialchars()</code> function which is used to handle the user properly and transfer the special charachters to <a href="https://www.freeformatter.com/html-entities.html">Html entities</a>.
+
+![image](https://github.com/KiraReys/blog/assets/44244085/79083ec5-fd89-4ede-a12f-2a5e44329c53)<br>
+
+The response will look like this now:
+
+<code>HTTP/1.1 200 OK<br>
+Connection: Keep-Alive<br>
+Content-Type: text/html; charset=UTF-8<br><br>
+Hello, &#38;lt;script&#38;gt;alert()&#38;lt;/script&#38;gt;<br>
+</code>
+ 
