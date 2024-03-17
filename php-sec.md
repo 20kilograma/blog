@@ -75,7 +75,7 @@ An Attacker may try to escape it with double quotes
 &lt;input value="" MALICIOUS"> 
 </code> 
 but that won't work because the double quotes are escaped too. <br>
-Vanilla PHP is not frequently used today for new projects, but PHP frameworks like Laravel or Symfony are go-to, so we will make few examples with Laravel too. You are probably asking yourself now, when is the XSS stored? <br>
+Vanilla PHP is not frequently used today for new projects, but PHP frameworks like Laravel or Symfony are go-to, so we will make few examples with Laravel too. What's important when using laravel is to always use built-in echo method by blade templates on user supplied input, because blade templates render it as plain text and it's secure. You are probably asking yourself now, when is the XSS stored? <br>
 It's simple, there must be some kind of storage (to a database, as some file, e.g.), and then later the victim receives that malicious data. The point of the story is to always properly handle the user-supplied input. <br> 
 The most simple example for Stored XSS is a Social Media Application with the functionality to create a new post with a <i>title</i> and <i>content</i>.
 
@@ -86,4 +86,6 @@ title=&lt;script>alert()&lt;/script>&content=test<br>
 </code>
 
 In this case the <i>title</i> parameter is vulnerable to XSS. That post stays forever there, and it has way more impact because now the attacker doesn't have to lure the victim to visit his link and it stays. That's why normally Stored XSS is ranked "High" severity vulnerability and Reflected "Medium".
-
+<br>
+Another thing I want to cover is the javascript-pseudo protocol. We have normal protocols like <code>http:</code>, <code>ftp:</code>, but we also have so-called pseudo protocols related to the app and not the network, like <code>javascript:</code>. Why is it important? It's important because we can execute arbitary javascript and achieve XSS of course. <br>
+Everywhere where an user can supply a link to the application and the link gets returned/stored it can be vulnerable to this attack. <br><code>javascript:alert()</code> - simple payload to test this. If you want to see how this can look like, you can read <a href="https://hackerone.com/reports/1930763" target="_blank">this</a> report on HackerOne. It's also important to cover this on the part of the app where you allow the user to supply HTML and nothing else. This attack can be used on the event-handlers on these html tags: <code>a</code>, <code>iframe</code> and <code>form</code>.
