@@ -95,5 +95,10 @@ It's always important to keep track of it, and yeah, you may have written secure
 Now let's get back to the Reflected XSS, if you thought a bit about it, you could've came to a conclusion that it can only happen using GET request. Well, yes and no, if we have Reflected XSS via POST or some other req-method it will be considered as "Self-XSS", an attack where you, yourself must do some certain actions to execute javascript, not really impactful you may think. If you don't have proper CSRF protection (which we will talk later about in this blog), then it can actually be escalated to impactful POST-Based Reflected XSS. (you can escalate so-called "Self-Stored XSS's" this way too)<br> <br>
 Let's take this as example:<br>
 
-![image](https://github.com/KiraReys/blog/assets/44244085/5e6e4b9b-4481-4565-8655-c7dec3be4558)
+![image](https://github.com/KiraReys/blog/assets/44244085/5e6e4b9b-4481-4565-8655-c7dec3be4558)<br>
+
+As you can see, there is no "CSRF-Token" in the HTML form or somewhere else, so it's possible to do a simple CSRF attack like this:<br>
+![image](https://github.com/KiraReys/blog/assets/44244085/77b6ea0f-f92a-4659-bf14-20c193821d9f)<br>
+
+We are using this code snippet and hosting it on our own website, and then all we have to do is lure the victim to visit our website, the POST request will be sent and the malicious javascript executed.
 
