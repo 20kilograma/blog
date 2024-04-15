@@ -104,4 +104,4 @@ We are using this code snippet and hosting it on our own website, and then all w
 
 If you're using Laravel with Blade Template Engine, use the built-in blade echo's or <code>htmlspecialchars()</code> like above and it'll be covered as plaintext. <br>
 If you want to dynamically use user-supplied URL, you can use <code>urlencode()</code> function that'll cover it for you and do proper <a href="https://en.wikipedia.org/wiki/Percent-encoding" target=_blank>URL Encoding</a>.<br>
-<code>urlencode("http://example.com");</code> -> <code>http%3A%2F%2Fexample.com</code>
+<code>urlencode("http:&#x2f;&#x2f;example.com");</code> -> <code>http%3A%2F%2Fexample.com</code>
