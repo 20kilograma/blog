@@ -97,7 +97,7 @@ Let's take this as example:<br>
 
 ![image](https://github.com/KiraReys/blog/assets/44244085/5e6e4b9b-4481-4565-8655-c7dec3be4558)<br>
 
-As you can see, there is no "CSRF-Token" in the HTML form or somewhere else, so it's possible to do a simple CSRF attack like this:<br>
+As you can see, there is no "CSRF-Token" in the HTML form or somewhere else, so it's possible to do a simple CSRF attack like this:<br><br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/77b6ea0f-f92a-4659-bf14-20c193821d9f)<br>
 
 We are using this code snippet and hosting it on our own website, and then all we have to do is lure the victim to visit our website, the POST request will be sent and the malicious javascript executed.
