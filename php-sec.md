@@ -107,5 +107,7 @@ If you want to dynamically use user-supplied URL, you can use <code>urlencode()<
 <code>urlencode("http:&#x2f;&#x2f;example.com");</code> -> <code>http%3A%2F%2Fexample.com</code> <br>
 
 That'll be it for XSS, there is a loooooot more, you can't imagine how much there is to it but that's just basics of basics and that's good for starters 😀.
-<br>
+<br><br>
 ## SQL Injection(SQLi)
+
+Okay, let's talk now about the most popular one among people. I think most people reading this blog know what SQLi is, but for those who don't, shortly; it's a vulnerability that allows an attacker to inject their own SQL and interact with the database of the application. We'll start by using these three code snippets as examples, and all three have different scenarios.
