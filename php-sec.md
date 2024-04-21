@@ -112,7 +112,7 @@ That'll be it for XSS, there is a loooooot more, you can't imagine how much ther
 
 Okay, let's talk now about the most popular one among community. I think most people reading this blog know what SQLi is, but for those who don't, shortly; it's a vulnerability that allows an attacker to inject their own SQL and interact with the database of the application. We'll start by using these three code snippets as examples, and all three have different scenarios.<br>
 
-<bold><u>DON'TS</u></bold><br>
+<b><u>DON'TS</u></b><br>
 
 ![image](https://github.com/KiraReys/blog/assets/44244085/64716a6a-1b1c-45b1-84e2-bb270ddd1547)<br>
 or <br>
