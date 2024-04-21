@@ -114,13 +114,13 @@ Okay, let's talk now about the most popular one among community. I think most pe
 
 <b><u>DON'TS</u></b><br>
 
-![image](https://github.com/KiraReys/blog/assets/44244085/64716a6a-1b1c-45b1-84e2-bb270ddd1547)<br>
+![image](https://github.com/KiraReys/blog/assets/44244085/dfa2d8a5-f563-4276-b3ec-f831c7bb90c2)<br>
 or <br>
-![image](https://github.com/KiraReys/blog/assets/44244085/3c39a8f2-bd48-4b4e-a4bf-d354e0981303)<br>
+![image](https://github.com/KiraReys/blog/assets/44244085/f147b494-ce6c-4155-919c-e44e1a5634b5)<br>
 and<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/03c6ebea-6779-4060-88a3-945baaae300a)<br>
 <br>
-<b><u>DO IT LIKE THIS</u></b><br>
+<b><u>DO IT LIKE THIS</u></b><br><br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/76fed0d8-7eca-42e4-847a-6f77c375f83e)<br>
 
 
