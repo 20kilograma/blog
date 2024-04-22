@@ -121,8 +121,10 @@ and<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/03c6ebea-6779-4060-88a3-945baaae300a)<br>
 <br>
 <b><u>DO IT LIKE THIS</u></b><br><br>
-![image](https://github.com/KiraReys/blog/assets/44244085/76fed0d8-7eca-42e4-847a-6f77c375f83e)<br>
+![image](https://github.com/KiraReys/blog/assets/44244085/76fed0d8-7eca-42e4-847a-6f77c375f83e)<br><br>
 
+The first two examples are similar; in the first one, it's chained in the variable, and in the second one, it's passed directly into the string. The third example is vulnerable even though <code>prepare()</code> is used.
+You should never pass it directly(in a case it's an user-controllable input); you must bind the parameters, like in the last example.
 
 
 
