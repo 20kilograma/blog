@@ -125,9 +125,9 @@ and<br>
 
 The first two examples are similar; in the first one, it's chained in the variable, and in the second one, it's passed directly into the string. The third example is vulnerable even though <code>prepare()</code> is used.
 You should never pass it directly(in a case it's an user-controllable input); you must bind the parameters, like in the last example.
-
-
-
+<br>
+In my opinion, the two most important "divisions" of SQLi to understand Imo are Second-Order SQLi and Blind SQLi.
+Second-Order SQLi is very similar to Stored XSS; it's when the application takes the user-supplied input (btw, if there was an issue, it would be First-Order SQLi, but that's not how it's called because it's the classical one; look at the example above), stores that for later use, and then later, when it's used and handled by other HTTP requests, it's handled wrong, and the issue occurs there.<br>
 
 
 
