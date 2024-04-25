@@ -110,7 +110,7 @@ That'll be it for XSS, there is a loooooot more, you can't imagine how much ther
 <br><br>
 ## SQL Injection(SQLi)
 
-Okay, let's talk now about the most popular one among community. I think most people reading this blog know what SQLi is, but for those who don't, shortly; it's a vulnerability that allows an attacker to inject their own SQL and interact with the database of the application. We'll start by using these three code snippets as examples, and all three have different scenarios.<br>
+Okay, let's talk now about the most popular one among community. I won't talk too much about SQLi, as it's already very well-known issue and it's not something hard to understand. I think most people reading this blog know what SQLi is, but for those who don't, shortly; it's a vulnerability that allows an attacker to inject their own SQL and interact with the database of the application. We'll start by using these three code snippets as examples, and all three have different scenarios.<br>
 
 <b><u>DON'TS</u></b><br>
 
@@ -125,6 +125,8 @@ and<br>
 
 The first two examples are similar; in the first one, it's chained in the variable, and in the second one, it's passed directly into the string. The third example is vulnerable even though <code>prepare()</code> is used.
 You should never pass it directly(in a case it's an user-controllable input); you must bind the parameters, like in the last example.
+
+
 
 
 
