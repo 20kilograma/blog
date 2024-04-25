@@ -17,7 +17,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
     <li>Cross-Site Request Forgery(CSRF)</li>
     <li>File Inclusion/Path Traversals</li>
     <li>Server-Side Request Forgery(SSRF)</li>
-    <li>Remote Code Execution(RCE) & Code Injection</li>
+    <li>Remote Code Execution(RCE) & Command Injection</li>
     <li>Insecure Direct Object References(IDOR)</li>
     <li>XML External Entity(XXE) Injection</li>
   </ul>
