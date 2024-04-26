@@ -135,14 +135,14 @@ Blind SQLi, as its name says, is a situation where the part of the application t
 
 This vulnerability has been less and less seen in the wild through the years, but nevertheless, it's still there. Cross-Site Request Forgery is a security vulnerability that allows an attacker to perform some actions from some other source that the victim does not intend to perform. Here's an example for that: <br>
 
-1. <code>POST /bank/transfer-funds.php HTTP/1.1<br>
+- <code>POST /bank/transfer-funds.php HTTP/1.1<br>
 Host: example.com<br>
 Content-Type: application/x-www-form-urlencoded<br><br>
 amount=100&to=example@example.com<br>
 </code>
 <br>
-2. There is no CSRF Protection (for example, an anti-CSRF token), so it's possible to send the POST request from the attacker's hosted website.<br>
+- There is no CSRF Protection (for example, an anti-CSRF token), so it's possible to send the POST request from the attacker's hosted website.<br>
 
 ![image](https://github.com/KiraReys/blog/assets/44244085/6ab84f2c-1a89-48cb-82c8-b52506134b65)<br>
-3. The attacker lures the victim to the website, and there you have that Cross-Site action. Funds are transferred to the attacker's account 💰. <br><br>
+- The attacker lures the victim to the website, and there you have that Cross-Site action. Funds are transferred to the attacker's account 💰. <br><br>
 
