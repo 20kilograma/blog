@@ -142,8 +142,6 @@ amount=100&to=example@example.com<br>
 </code>
 <br>
 2. There is no CSRF Protection (for example, an anti-CSRF token), so it's possible to send the POST request from the attacker's hosted website.<br>
-
 ![image](https://github.com/KiraReys/blog/assets/44244085/6ab84f2c-1a89-48cb-82c8-b52506134b65)<br>
-
 3. The attacker lures the victim to the website, and there you have that Cross-Site action. Funds are transferred to the attacker's account 💰. <br><br>
 
