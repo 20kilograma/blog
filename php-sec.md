@@ -141,6 +141,7 @@ Content-Type: application/x-www-form-urlencoded<br><br>
 amount=100&to=example@example.com<br>
 </code>
 <br>
+
 - There is no CSRF Protection (for example, an anti-CSRF token), so it's possible to send the POST request from the attacker's hosted website.<br>
 
 ![image](https://github.com/KiraReys/blog/assets/44244085/6ab84f2c-1a89-48cb-82c8-b52506134b65)<br>
