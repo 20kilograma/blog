@@ -148,3 +148,5 @@ amount=100&to=example@example.com<br>
 - The attacker lures the victim to the website, and there you have that Cross-Site action. Funds are transferred to the attacker's account 💰. <br><br>
 
 That was the classic example. Of course, all relevant and sensitive actions should be secured against CSRF, like: changing email addresses, adding stuff to carts, deleting accounts, etc. CSRF on some of the actions can be really critical, like, for example, changing an email address, which leads to direct <a href="https://www.cloudflare.com/learning/access-management/account-takeover/" target="_blank">account takeover</a> via the "Forget Password" function. 
+<br><br>
+This issue is not something hard to fix, it's actually quite simple.
