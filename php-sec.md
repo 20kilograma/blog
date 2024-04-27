@@ -155,3 +155,5 @@ This issue is not something hard to fix, it's actually quite simple. Use the Ant
 - Is it the right Anti-CSRF token of that user?
 - Is the Anti-CSRF token somehow spoofable?
 
+<br>
+CSRF vulnerabilities are really underrated; personally, I would say they're one of the most used vulnerabilities to create chains of vulnerabilities that have greater impacts. Even CSRFs on some functionalities like login/log-out, changing some preferences on an account, etc. can really be of help for an attacker; that's why it's important to keep all of it secure.
