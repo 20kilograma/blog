@@ -10,6 +10,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
 
 # >> Outline
 <ul>
+  <li>About</li>
   <li>Popular Bugs</li>
   <ul>
     <li>Cross-Site Scripting(XSS)</li>
@@ -30,7 +31,6 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
     <li>Integer & Float Overflow/Underflow</li>
     <li>PHP ReDoS</li>
   </ul>
-  <li>Tips to write less vulnerable code</li>
   <li>Conclusion</li>
 </ul>
 
