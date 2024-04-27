@@ -152,7 +152,7 @@ That was the classic example. Of course, all relevant and sensitive actions shou
 This issue is not something hard to fix, it's actually quite simple. Use the Anti-CSRF tokens and if you don't have a problem with restricting the cookies from Cross-Site requests, then you could also enforce the <a href="https://owasp.org/www-community/SameSite" target="_blank">SameSite</a> attribute to cookies. It's essential to use the Anti-CSRF tokens but also to do proper checks for them, which many developers, from what I have seen, miss out on. These are the questions you should ask yourself, and later check the code: <br>
 
 - Is the Anti-CSRF there in the request?
-- Is it the right Anti-CSRF token of that user?
+- Is it the right Anti-CSRF token for that user?
 - Is the Anti-CSRF token somehow spoofable?
 
 <br>
