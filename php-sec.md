@@ -163,6 +163,6 @@ An example for this is let's say you have a Self-XSS on your account, what you c
 - Log-Out CSRF
 - Login CSRF to your account<br>
 
-From that, you can create a very nice Phising attack like <i>We are sorry, could you re-login here</i>...<br><br>
+From that, you can create a very nice phishing attack, like <i>We are sorry, could you re-login here</i>...<br><br>
 
 ## File Inclusions/Path Traversals
