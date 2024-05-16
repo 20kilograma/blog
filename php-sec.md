@@ -156,6 +156,12 @@ This issue is not something hard to fix, it's actually quite simple. Use the Ant
 - Is the Anti-CSRF token somehow spoofable?
 
 <br>
-CSRF vulnerabilities are really underrated; personally, I would say they're one of the most used vulnerabilities to create chains of vulnerabilities that have greater impacts. Even CSRFs on some functionalities like login/log-out, changing some preferences on an account, etc. can really be of help for an attacker; that's why it's important to keep all of it secure.<br><br>
+CSRF vulnerabilities are really underrated; personally, I would say they're one of the most used vulnerabilities to create chains of vulnerabilities that have greater impacts. Even CSRFs on some functionalities like login/log-out, changing some preferences on an account, etc. can really be of help for an attacker; that's why it's important to keep all of it secure.<br>
+An example for this is let's say you have a Self-XSS on your account, what you can do is: <br>
+> Attacker visits your link
+> Log-Out CSRF
+> Login CSRF to your account<br>
+
+From that, you can create a very nice Phising attack like <i>We are sorry, could you re-login here</i>...<br><br>
 
 ## File Inclusions/Path Traversals
