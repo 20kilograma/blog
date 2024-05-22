@@ -188,7 +188,6 @@ This is your directory:
 - index.php
 - test.php
 
-<br>
 <u>index.php</u>:
 <code>
 <?php
