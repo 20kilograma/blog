@@ -200,7 +200,7 @@ this is your directory:
     echo "&lt;strong>Test&lt;/strong>";
 ?>
 </code><br><br>
-Now when you send this request to the server <code>http://localhost/?file=test.php</code> it will just reply with the content of the file <code>test.php</code>:<br>
+Now when you send this request to the server <code>http://localhost/?file=test.php</code> it will just reply with the content of the file <code>test.php</code> and it will not actually interpret the code:<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/3bb3a30f-34c1-4ef0-93b6-3b77797c3c62)<br>
 
 Now this is what <strong>Path Traversal</strong> is, you can read the contents of the files and obtain some sensitive information from the files you shouldn't be able to see, but not execute them. It's like a lower-grade LFI.
