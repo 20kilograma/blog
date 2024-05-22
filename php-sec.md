@@ -182,8 +182,8 @@ An attacker now can make us of additional trailing slashes and dots to access so
 
 You may be thinking now, how to protect against something like this? Well it depends on the situation, but the first thing you should consider is to rethink, do you need to execute that file or you just need the content inside of it, if not then you can use <code>readfile()</code> function. Now it's only displaying the contents of file and not executing it.This way you are making escalation of the issue to some server-side injection very less likely.
 
-Here's an example with <code>readfile()</code>:
-This is your directory:
+Here's an example with <code>readfile()</code>,
+this is your directory:
 
 - index.php
 - test.php
