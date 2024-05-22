@@ -190,14 +190,14 @@ this is your directory:
 
 <u>index.php</u>:
 <code>
-<?php
+&lt;?php
     readfile($_GET['file']);
 ?>
 </code><br>
 <u>test.php</u>:
 <code>
-<?php 
-    echo "<strong>Test</strong>";
+&lt;?php 
+    echo "&lt;strong>Test&lt;/strong>";
 ?>
 </code><br><br>
 Now when you send this request to the server <code>http://localhost/?file=test.php</code> it will just reply with the content of the file <code>test.php</code>:<br>
