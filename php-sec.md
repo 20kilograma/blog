@@ -188,13 +188,14 @@ This is your directory:
 - index.php
 - test.php
 
-index.php:
+<br>
+<u>index.php</u>:
 <code>
 <?php
     readfile($_GET['file']);
 ?>
 </code><br>
-test.php:
+<u>test.php</u>:
 <code>
 <?php 
     echo "<strong>Test</strong>";
