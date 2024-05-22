@@ -199,7 +199,7 @@ This is your directory:
 <?php 
     echo "<strong>Test</strong>";
 ?>
-</code><br>
+</code><br><br>
 Now when you send this request to the server <code>http://localhost/?file=test.php</code> it will just reply with the content of the file <code>test.php</code>:<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/3bb3a30f-34c1-4ef0-93b6-3b77797c3c62)
 
