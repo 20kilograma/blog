@@ -203,6 +203,12 @@ this is your directory:
 Now when you send this request to the server <code>http://localhost/?file=test.php</code> it will just reply with the content of the file <code>test.php</code> and it will not actually interpret the code:<br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/3bb3a30f-34c1-4ef0-93b6-3b77797c3c62)<br>
 
-Now this is what <strong>Path Traversal</strong> is, you can read the contents of the files and obtain some sensitive information from the files you shouldn't be able to see, but not execute them. It's like a lower-grade LFI.
-
+Now this is what <strong>Path Traversal</strong> is, you can read the contents of the files and obtain some sensitive information from the files you shouldn't be able to see, but not execute them. It's like a lower-grade LFI. You can fix that now by using <code>basename()</code> and <code>realpath()</code> functions. <br>
+<code>basename()</code> function returns the base name of a file if the path of the file is provided as a parameter to the basename() function, e.g<br>
+<code>/home/test/asdf.txt</code> -> <code>asdf.txt</code>
+<code>realpath()</code> function returns the absolute pathname of the file and removes the additional <code>/..</code>, <code>./</code> which are used to often to exploit the vulnerability.<br>
+<code>../test.txt</code> -> <code>/home/test/test.txt</code>
+When you combine those two, it should look like this now:
+<code><?php readfile(basename(realpath($_GET['file']))); ?></code>, now if someone provides something like <code>../../../etc/passwd</code> it will first remove all the <code>../</code> and give the absolute pathname which is /etc/passwd, after that <code>basename()</code> function will just save it as <code>passwd</code> and that is what we want.
+Now the attacker will only be able to read the files in that same directory, and you can make a simple check for that, if there are any sensitive files there.
 
