@@ -214,4 +214,4 @@ Now the attacker will only be able to read the files in that same directory, and
 
 ## Server-Side Request Forgery(SSRF)
 
-In contrast to CSRF, SSRF is a web security vulnerability that allows an attacker to cause the server-side application to make requests to an unintended location, it's mostly some internal service on the app which normal user has no access too.
+In contrast to CSRF, SSRF is a web security vulnerability that allows an attacker to cause the server-side application to make requests to an unintended location, it's mostly some internal service on the app which normal user has no access too. We'll start with this code example:
