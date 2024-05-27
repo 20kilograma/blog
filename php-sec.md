@@ -217,5 +217,7 @@ Now the attacker will only be able to read the files in that same directory, and
 In contrast to CSRF, SSRF is a web security vulnerability that allows an attacker to cause the server-side application to make requests to an unintended location, it's mostly some internal service on the app which normal user has no access too. We'll start with this code example: <br>
 ![image](https://github.com/KiraReys/blog/assets/44244085/5449ce78-2c82-459c-be81-46c0ae8fa9dd)
 
-As you can see, there is a straightforward user-supplied URL to load the picture from another location. An attacker can do something like this now <code>http://example.com/?image=http://localhost/admin</code> hit the localhost and exploit it further. Also what's characteristic for this vulnerability is ability to try out different protocols like: <code>ftp://</code>, <code>file://</code>, <code>gopher://</code>, e.g <code>http://example.com/?image=file://etc/passwd</code>.
+As you can see, there is a straightforward user-supplied URL to load the picture from another location. An attacker can do something like this now <code>http://example.com/?image=http://localhost/admin</code> hit the localhost and exploit it further. Also what's characteristic for this vulnerability is ability to try out different protocols like: <code>ftp://</code>, <code>file://</code>, <code>gopher://</code>, e.g <code>http://example.com/?image=file://etc/passwd</code>. <br>
+There is a whole other class of SSRF, which is called Blind SSRF. As the name says, it's blind, meaning that we can't see the response (the result of the endpoint we are hitting) but we are hitting it. These types of SSRF's have a lower impact and are mostly used to scan open ports on the target machine, DoS... <br>
+
 
