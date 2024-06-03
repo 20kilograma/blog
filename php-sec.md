@@ -25,8 +25,6 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
   <li>Less Popular Bugs</li>
   <ul>
     <li>Type Juggling</li>
-    <li>Rate-limit issues</li>
-    <li>Sessions related issues</li>
     <li>PHP Object Injection(Insecure Deserialization)</li>
     <li>Integer & Float Overflow/Underflow</li>
     <li>PHP ReDoS</li>
