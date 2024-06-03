@@ -224,4 +224,4 @@ If you've paid attention to this blog, you may be able to guess which vulnerabil
 
 ## Remote Code Execution(RCE) & Command Injection
 
-People mix these two vulnerabilities many times because of their similarities; it doesn't really matter because when you have one, you can have another almost always if you want. These two are the top of the pyramid and the most important ones to be fixed. By their names you can figure out, RCE is a vulnerability which allows an attacker to run arbitary code on victims machine and Command Injection is a vulnerability which allows an attacker to execute OS commands on victims machine. <br>
+People mix these two vulnerabilities many times because of their similarities; it doesn't really matter because when you have one, you can have another almost always if you want. These two are at the top of the pyramid and the most important ones to be fixed with the biggest impact. By their names you can figure out, RCE is a vulnerability which allows an attacker to run arbitary code on victims machine and Command Injection is a vulnerability which allows an attacker to execute OS commands on victims machine. <br>
