@@ -230,6 +230,7 @@ People mix these two vulnerabilities many times because of their similarities; i
 <img src="https://github.com/KiraReys/blog/assets/44244085/cf7ea462-d7a7-433e-a1b7-6f0553adc7cf" height=232 alt="image">
 
 There are way more complex examples for both Command Injection & RCE, but these two are the most simple ones. Avoid using dangerous functions like <code>eval()</code>, <code>system()</code>, <code>shell_exec()</code> etc.
-on user input, and if you really have to use it on user provided input, make sure to escape it properly. What an attacker can do in first example is 
+on user input, and if you really have to use it on user provided input, make sure to escape it properly. If you know basics of Shell in Linux then you may guess how that can be escaped on the first example. <br><br>First Example Exploit: <code>http://example.com/?q=asdf && ls -la</code><br>
+Second Example Exploit: <code>http://example.com/?q=system("ls -la");</code>
 
 
