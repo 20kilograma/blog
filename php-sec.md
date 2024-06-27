@@ -225,3 +225,11 @@ If you've paid attention to this blog, you may be able to guess which vulnerabil
 ## Remote Code Execution(RCE) & Command Injection
 
 People mix these two vulnerabilities many times because of their similarities; it doesn't really matter because when you have one, you can have another almost always if you want. These two are at the top of the pyramid and the most important ones to be fixed with the biggest impact. By their names you can figure out, RCE is a vulnerability which allows an attacker to run arbitary code on victims machine and Command Injection is a vulnerability which allows an attacker to execute OS commands on victims machine. <br>
+
+![image](https://github.com/KiraReys/blog/assets/44244085/312a4255-34e3-4173-b5db-200e68d9e9dd)
+![image](https://github.com/KiraReys/blog/assets/44244085/cf7ea462-d7a7-433e-a1b7-6f0553adc7cf)
+
+There are way more complex examples for both Command Injection & RCE, but these two are the most simple ones. Avoid using dangerous functions like <code>eval()</code>, <code>system()</code>, <code>shell_exec()</code> etc.
+on user input, and if you really have to use it on user provided input, make sure to escape it properly. What an attacker can do in first example is 
+
+
