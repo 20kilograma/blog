@@ -232,6 +232,8 @@ People mix these two vulnerabilities many times because of their similarities; i
 There are way more complex examples for both Command Injection & RCE, but these two are the most simple ones. Avoid using dangerous functions like <code>eval()</code>, <code>system()</code>, <code>shell_exec()</code> etc.
 on user input, and if you really have to use it on user provided input, make sure to escape it properly. If you know basics of Shell in Linux then you may guess how that can be escaped on the first example. <br><br>First Example Exploit: <code>http://example.com/?q=asdf%20&&%20ls%20-la</code><br>
 Second Example Exploit: <code>http://example.com/?q=system("ls%20-la");</code><br>
-<strong>%20 = SPACE URL-ENCODED</strong>
+<strong>%20 = SPACE URL-ENCODED</strong><br><br>
+
+Like I've said, there are a lot more ways to achieve RCE or Command Injection, e.g., File upload, where an attacker can upload <code>.php</code> somewhere and have the HTTP server execute it when we visit that location, but covering all that would take ages here to explain tenderly.
 
 
