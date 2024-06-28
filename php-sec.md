@@ -235,4 +235,6 @@ Second Example Exploit: <code>http://example.com/?q=system("ls%20-la");</code><b
 <strong>%20 = SPACE URL-ENCODED</strong><br><br>
 
 Like I've said, there are a lot more ways to achieve RCE or Command Injection, e.g., File upload, where an attacker can upload <code>.php</code> somewhere and have the HTTP server execute it when we visit that location, but covering all that would take ages here to explain tenderly.
-What's important for these two is to have other server-side issues fixed, because in most cases, when we see RCE or Command Injection, it's not directly but actually escalated from another issue.
+What's important for these two is to have other server-side issues fixed, because in most cases, when we see RCE or Command Injection, it's not directly but actually escalated from another issue.<br><br>
+
+## Insecure Direct Object References(IDOR)
