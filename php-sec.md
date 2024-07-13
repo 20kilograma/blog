@@ -289,4 +289,5 @@ or Command Injection with the help of <a href="https://www.geeksforgeeks.org/pro
  There are other ways to exploit this security vulnerability, but these are the most popular ones. XXE Injection is not really seen often, but it's still very important to secure the spots of the app that use XML data processing.
 To fix this vulnerability, I would suggest you validate the user input, make sure it's in the expected format, and disable external entity loading. You can disable external entity loading by using the <code>LIBXML_NOENT</code> flag in the <code>loadXML(YOUR_XML, LIBXML_NOENT);</code> function.<br><br>
 
-## Type Juggling
+## Type Juggling in PHP
+
