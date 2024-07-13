@@ -239,4 +239,4 @@ What's important for these two is to have other server-side issues fixed, becaus
 
 ## Insecure Direct Object References(IDOR)
 
-IDOR is a type of access control vulnerabilities that arises when an application uses user-supplied input to access objects directly. It's one of the easiest to understand and they've been very popular lately. <code>http://example.com/account/54433/edit</code> this is the easiest example, let's say <code>54433</code> is our account id, if there is no protection, an attacker can just change the id to someone else's and then edit informations on the account, that would be the case of an IDOR.
+IDOR is a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. It's one of the easiest to understand, and it's been very popular lately. <code>http://example.com/account/54433/edit</code> This is the easiest example. Let's say <code>54433</code> is our account ID. If there is no protection, an attacker can just change the ID to someone else's and then edit information on the account. That would be the case of an IDOR.
