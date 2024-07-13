@@ -254,6 +254,7 @@ How IDORs can be prevented in PHP is very simple, you just have to ensure that a
 
 ## XML External Entity(XXE) Injection
 
+This one is only improtant for you if you use XML to transmit data on the API somewhere. These are very important to fix because they lead to server-side injection and are almost always critical.
 
 
 
