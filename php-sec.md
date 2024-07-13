@@ -238,3 +238,5 @@ Like I've said, there are a lot more ways to achieve RCE or Command Injection, e
 What's important for these two is to have other server-side issues fixed, because in most cases, when we see RCE or Command Injection, it's not directly but actually escalated from another issue.<br><br>
 
 ## Insecure Direct Object References(IDOR)
+
+IDOR is a type of access control vulnerabilities that arises when an application uses user-supplied input to access objects directly. It's one of the easiest to understand and they've been very popular lately. <code>http://example.com/account/54433/edit</code> this is the easiest example, let's say <code>54433</code> is our account id, if there is no protection, an attacker can just change the id to someone else's and then edit informations on the account, that would be the case of an IDOR.
