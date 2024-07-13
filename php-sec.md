@@ -239,4 +239,14 @@ What's important for these two is to have other server-side issues fixed, becaus
 
 ## Insecure Direct Object References(IDOR)
 
-IDOR is a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. It's one of the easiest to understand, and it's been very popular lately. <code>http://example.com/account/54433/edit</code> This is the easiest example. Let's say <code>54433</code> is our account ID. If there is no protection, an attacker can just change the ID to someone else's and then edit information on the account. That would be the case of an IDOR.
+IDOR is a type of access control vulnerability that arises when an application uses user-supplied input to access objects directly. It's one of the easiest to understand, and it's been very popular lately. <code>http://example.com/account/54433/edit</code> This is the easiest example. Let's say <code>54433</code> is our account ID. If there is no protection, an attacker can just change the ID to someone else's and then edit information on the victim's account. That would be the case of an IDOR.
+<br><br>
+Of course, the IDs don't always have to be integers, they can be any text, so it's improtant to look everywhere when you're looking for these vulnerabilities. I'll make one more complex example here. Let's say this is a request where you purchase an item from the online store.<br>
+
+ <code>POST /store/purchase-item.php HTTP/1.1<br>
+Host: example.com<br>
+Content-Type: application/x-www-form-urlencoded<br><br>
+item_id=3234&account_id=54433<br>
+</code>
+<br>
+Try to guess alone what an attacker could do here 🤔. If you've said to change the account ID to someone else's, good job. By changing to someone else's ID, it charges $ from the victim's account and that is a serious issue that can be abused.
