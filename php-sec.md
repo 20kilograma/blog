@@ -272,7 +272,7 @@ What an attacker can do is:<br>
 Host: example.com<br>
 Content-Type: application/xml<br><br>
 &lt;?xml version="1.0" encoding="UTF-8"?><br>
-&lt;!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+&lt;!DOCTYPE foo [ &lt;!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
   &lt;user><br>
       &lt;id>&xxe;&lt;/id><br>
   &lt;/user><br>
