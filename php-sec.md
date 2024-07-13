@@ -254,7 +254,20 @@ How IDORs can be prevented in PHP is very simple, you just have to ensure that a
 
 ## XML External Entity(XXE) Injection
 
-This one is only improtant for you if you use XML to transmit data on the API somewhere. These are very important to fix because they lead to server-side injection and are almost always critical.
+This one is only improtant for you if you use XML to transmit data on the API somewhere. These are very important to fix because they lead to server-side injection and are almost always critical. <br>
+XXE Injection arises when an application processes XML input and allows the inclusion of external entities, which can be exploited by attackers to read local files, perform SSRF, or execute other malicious actions.
+Here is an example, let's say you have this request: <br>
 
+<code>POST /account HTTP/1.1<br>
+Host: example.com<br>
+Content-Type: application/xml<br><br>
+&lt;?xml version="1.0" encoding="UTF-8"?>
+  &lt;user>
+      &lt;id>54433&lt;/id>
+      &lt;name>Test&lt;/name>
+      &lt;email>test@example.com&lt;/email>
+  &lt;/user>
+<br>
+</code>
 
 
