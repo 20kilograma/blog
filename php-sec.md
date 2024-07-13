@@ -249,7 +249,7 @@ Content-Type: application/x-www-form-urlencoded<br><br>
 item_id=3234&account_id=54433<br>
 </code>
 <br>
-Try to guess alone what an attacker could do here 🤔. If you've said to change the account ID to someone else's, good job. By changing to someone else's ID, it charges $ from the victim's account and that is a serious issue that can be abused. <br>
-How IDORs can be prevented in PHP is very simple, you just have to ensure that access control checks are implemented in the code to verify that the user has permission to access the requested resource and if not just send back 403 response code(<code>http_response_code(403);</code>).
+Try to guess alone what an attacker could do here 🤔. If you've said to change the account ID to someone else's, good job. By changing to someone else's ID, it charges $ from the victim's account and that is a serious issue that can be abused. <br><br>
+How IDORs can be prevented in PHP is very simple, you just have to ensure that access control checks are implemented in the code to verify that the user has permission to access the requested resource and if not just send back 403 response code(<code>http_response_code(403);</code>). Of course it's easy to say that, because in many places it can be easily overlooked and later become an issue, but that's why pentest services exist and if your website is very important for you, I would really recommend it to you.
 
 
