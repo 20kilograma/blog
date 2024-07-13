@@ -261,13 +261,12 @@ Here is an example, let's say you have this request: <br>
 <code>POST /account HTTP/1.1<br>
 Host: example.com<br>
 Content-Type: application/xml<br><br>
-&lt;?xml version="1.0" encoding="UTF-8"?>
-  &lt;user>
-      &lt;id>54433&lt;/id>
-      &lt;name>Test&lt;/name>
-      &lt;email>test@example.com&lt;/email>
-  &lt;/user>
-<br>
+&lt;?xml version="1.0" encoding="UTF-8"?><br>
+  &lt;user><br>
+      &lt;id>54433&lt;/id><br>
+      &lt;name>Test&lt;/name><br>
+      &lt;email>test@example.com&lt;/email><br>
+  &lt;/user><br>
 </code>
 
 
