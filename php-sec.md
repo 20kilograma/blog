@@ -302,4 +302,6 @@ There might be a problem if a developer uses a loose comparison on authorization
 ![image](https://github.com/user-attachments/assets/f93cae64-aeb9-4f06-94d7-25d922c0876b)
 
 This would work in PHP 5 and go through; it won’t work on the newer versions of PHP. That’s why I would suggest you update and keep using strict comparison on the auth parts of the application.
+<br><br>
 
+## PHP Object Injection(Insecure Deserialization)
