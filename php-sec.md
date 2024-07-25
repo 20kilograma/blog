@@ -296,7 +296,7 @@ You can see the difference between those two below:<br>
 ![image](https://github.com/user-attachments/assets/c9f22b13-c920-4538-a7f1-0cf6fcc25028)<br>
 ![image](https://github.com/user-attachments/assets/008a7b72-bc26-4d0d-8d22-89bc42d5300b)
 
-There might be a problem if a developer is using loose comparison on authorization/authentication part of the app. Let's say for example you have a request where you need to submit a secret code and you submit instead of the code just the integer null like this:<br>
+There might be a problem if a developer uses a loose comparison on authorization/authentication part of the app. Let’s say, for example, you have a request where you need to submit a secret code, and instead of the code, you submit an integer null like this:<br>
 <code> {<br>
   "code": 0<br>}</code><br><br>
 ![image](https://github.com/user-attachments/assets/f93cae64-aeb9-4f06-94d7-25d922c0876b)
