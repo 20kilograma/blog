@@ -291,3 +291,4 @@ To fix this vulnerability, I would suggest you validate the user input, make sur
 
 ## Type Juggling in PHP
 
+Type Juggling is a dangerous feature in PHP that can create a vulnerability if the developer is not careful when comparing values. In PHP there are two comparison modes, loose <code>==</code> and strict<code>===</code>.
