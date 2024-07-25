@@ -292,3 +292,7 @@ To fix this vulnerability, I would suggest you validate the user input, make sur
 ## Type Juggling in PHP
 
 Type Juggling is a dangerous feature in PHP that can create a vulnerability if the developer is not careful when comparing values. In PHP there are two comparison modes, loose <code>==</code> and strict<code>===</code>.
+You can see the difference between those two below:<br>
+![image](https://github.com/user-attachments/assets/c9f22b13-c920-4538-a7f1-0cf6fcc25028)<br>
+![image](https://github.com/user-attachments/assets/008a7b72-bc26-4d0d-8d22-89bc42d5300b)
+
