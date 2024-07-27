@@ -309,7 +309,7 @@ This would work in PHP 5 and go through; it won’t work on the newer versions o
 PHP Object Injection is a vulnerability where an attacker can manipulate the serialized data and do malicious actions with it. It appears when the developer uses <code>unserialize()</code> function on user-input. Take this source code for example.<br>
 ![image](https://github.com/user-attachments/assets/c3dbf8c1-acc1-4811-8d07-37051c936c10)
 
-Now anyone there can send the serialized data through the <code>x</code> POST parameter and change what amount of cash (the attribute) they have. This is the easiest example and the serialized data payload would look something like this:<br>
+Now anyone there can send the serialized data through the <code>x</code> POST parameter and change what amount of cash (the attribute) they have. This is the easiest example, and the serialized data payload would look something like this:<br>
 
 <code>O:7:"Account":2:{s:8:"username";"yourname";s:4:"cash";10000;}</code><br>
 That's how serialized data looks in PHP and as you can see, we edited the <code>cash</code> to <code>10000</code>. Now you send that through <code>x</code> POST parameter, and it'll work.
