@@ -312,5 +312,5 @@ PHP Object Injection is a vulnerability where an attacker can manipulate the ser
 Now anyone there can send the serialized data through the <code>x</code> POST parameter and change what amount of cash (the attribute) they have. This is the easiest example, and the serialized data payload would look something like this:<br>
 
 <code>O:7:"Account":2:{s:8:"username";"yourname";s:4:"cash";10000;}</code><br>
-That's how serialized data looks in PHP and as you can see, we edited the <code>cash</code> to <code>10000</code>. Now you send that through <code>x</code> POST parameter, and it'll work.
-
+That's how serialized data looks in PHP and as you can see, we edited the <code>cash</code> to <code>10000</code>. Now you send that through <code>x</code> POST parameter, and it'll work. This vulnerability can lead to RCE on certain parts of the application, but also to some access control bugs, etc. <br>
+It's not really hard to mitigate it; you just shouldn't serialize your data. If you must do it, then don't accept the serialized data from the user.
