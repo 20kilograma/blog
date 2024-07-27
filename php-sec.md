@@ -328,4 +328,4 @@ One way to fix this would be to just change the configuration for <code>pcre.bac
 
 # >> Conclusion
 
-It took me some time to write this all, so next time you hear your friend complaining about PHP and its security, share this blog with him! In all seriousness now, there is a lot more, and this is just what came from the top of my head. It's not always easy to write secure code, and everyone makes mistakes, so don't feel bad. Hopefully you learned something new from this, I'll be writing some more blogs soon, till then 👋.
+It took me some time to write this all, so next time you hear your friend complaining about PHP and its security, share this blog with him! In all seriousness now, there is a lot more, and this is just what came from the top of my head. It's not always easy to write secure code, and everyone makes issues, they are there to be fixed. Hopefully you learned something new from this, I'll be writing some more blogs soon, till then 👋.
