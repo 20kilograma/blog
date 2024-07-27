@@ -26,7 +26,7 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
   <ul>
     <li>Type Juggling</li>
     <li>PHP Object Injection(Insecure Deserialization)</li>
-    <li>Integer & Float Overflow/Underflow</li>
+    <li>Integer & other types Overflow/Underflow</li>
     <li>PHP ReDoS</li>
   </ul>
   <li>Conclusion</li>
@@ -305,3 +305,5 @@ This would work in PHP 5 and go through; it won’t work on the newer versions o
 <br><br>
 
 ## PHP Object Injection(Insecure Deserialization)
+
+PHP Object Injection is a vulnerability where an attacker can manipulate the serialized data and do malicious actions with it. It appears when the developer uses <code>unserialize()</code> function on user-input.
