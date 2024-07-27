@@ -320,4 +320,11 @@ It's not really hard to mitigate it; you just shouldn't serialize your data. If 
 ## PHP ReDoS
 
 PHP Regex expression DOS or shortly ReDoS is a bug where, the regex check is getting bypassed by going over the limit with the number of charachters set. The <code>preg_match</code> function has default limit of <code>1000000</code>, so it does the check that many times and then after that just stops, so anything after first 1000000 will be ignored. This can get dangerous and lead to access control bugs, rate limit bypasses, etc. <br>
-  
+
+![image](https://github.com/user-attachments/assets/131b718c-27a7-4730-8132-1380c2a6b48d)<br>
+
+One way to fix this would be to just change the configuration for <code>pcre.backtrack_limit</code> in the <code>php.ini</code> file.
+<br><br>
+
+# Conclusion
+
