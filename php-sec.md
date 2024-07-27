@@ -306,4 +306,6 @@ This would work in PHP 5 and go through; it won’t work on the newer versions o
 
 ## PHP Object Injection(Insecure Deserialization)
 
-PHP Object Injection is a vulnerability where an attacker can manipulate the serialized data and do malicious actions with it. It appears when the developer uses <code>unserialize()</code> function on user-input.
+PHP Object Injection is a vulnerability where an attacker can manipulate the serialized data and do malicious actions with it. It appears when the developer uses <code>unserialize()</code> function on user-input. Take this source code for example.
+
+
