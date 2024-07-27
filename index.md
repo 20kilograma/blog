@@ -19,3 +19,4 @@
 # >> Blogs and Write-ups
 
 ### <a href="nullcon-writeup"> > Nullcon-CTF [2023] Web Challenges Writeup </a>
+### <a href="php-sec"> > PHP (detailed) - its security, vulnerable code examples & improvement </a>
