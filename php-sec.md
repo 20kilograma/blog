@@ -26,7 +26,6 @@ If someone is wondering why the name of this blog is "PHP beyond SQLi", I just w
   <ul>
     <li>Type Juggling</li>
     <li>PHP Object Injection(Insecure Deserialization)</li>
-    <li>Integer & other types Overflow/Underflow</li>
     <li>PHP ReDoS</li>
   </ul>
   <li>Conclusion</li>
@@ -318,4 +317,6 @@ That's how serialized data looks in PHP and as you can see, we edited the <code>
 It's not really hard to mitigate it; you just shouldn't serialize your data. If you must do it, then don't accept the serialized data from the user.
 <br><br>
 
-## Integer Overflow/Underflow
+## PHP ReDoS
+
+
