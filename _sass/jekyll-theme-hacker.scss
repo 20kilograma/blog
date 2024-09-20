@@ -21,7 +21,7 @@ body {
   color: $body-foreground;
   font-size: 18.5px;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-inter),ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 /* General & 'Reset' Stuff */
