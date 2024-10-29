@@ -161,7 +161,12 @@ blockquote {
 }
 
 code { 
-  background: #142E36;
+  background-color: #2e2e2e;
+  color: #dcdcdc; 
+  padding: 0.2em 0.4em; 
+  font-size: 0.95em;
+  font-family: Consolas, 'Courier New', monospace;
+  border-radius: 4px; 
 }
 
 pre {
