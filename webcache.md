@@ -7,8 +7,6 @@ document.querySelectorAll('pre code.highlight').forEach((block) => {
   hljs.highlightElement(block);
 });
 </script>
-
-## Test
 <code> brrr </code>
 
 <pre><code class="highlight language-php">
