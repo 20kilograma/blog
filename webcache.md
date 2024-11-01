@@ -5,6 +5,6 @@
 <pre>
 <code class="highlight language-php">&lt;?php
     echo "test";
-  ?&gt;
+?&gt;
 </code></pre>
 
