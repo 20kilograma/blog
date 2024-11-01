@@ -150,9 +150,23 @@ dt {
   font-weight: bold;
 }
 
-ul li {
-  list-style-image:url('../images/bullet.png');
+ul {
+    list-style: none; 
+    padding: 0; 
 }
+
+li {
+    position: relative; 
+    padding-left: 20px; 
+}
+
+li::before {
+    content: '>>'; 
+    color: gray; 
+    position: absolute; 
+    left: 0;
+}
+
 
 blockquote {
   color: $blockquote-color;
