@@ -3,8 +3,8 @@
 <code> brrr </code>
 
 <pre><code class="highlight language-php">
-  <?php
+  &lt;?php
     echo "test";
-  ?>
+  ?&gt;
 </code></pre>
 
