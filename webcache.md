@@ -3,11 +3,10 @@
 <code> brrr </code>
 
 <pre>
-<code class="language-php">&lt;?php
+<code class="language-php">
     $a = 1;
     if ($a = 1) {
         echo "test";
     }
-?&gt;
 </code></pre>
 
