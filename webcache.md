@@ -4,7 +4,10 @@
 
 <pre>
 <code class="language-php">&lt;?php
-    echo "test";
+    $a = 1;
+    if ($a = 1) {
+        echo "test";
+    }
 ?&gt;
 </code></pre>
 
