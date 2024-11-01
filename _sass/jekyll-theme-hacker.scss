@@ -157,14 +157,8 @@ ul {
 
 li {
     position: relative; 
-    padding-left: 20px; 
-}
-
-li::before {
-    content: '>>'; 
-    color: gray; 
-    position: absolute; 
-    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
