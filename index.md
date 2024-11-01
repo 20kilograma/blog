@@ -1,4 +1,4 @@
-# >> About | Kira Reys (20kilograma)
+# >> About | 20kilograma
 
 <ul>
   <li>18/yo from Germany</li>
