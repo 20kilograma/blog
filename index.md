@@ -15,7 +15,7 @@
 <a target="_blank" href=""><img width=40 height=40 src="https://logodix.com/logo/64439.png"></a>
 <a target="_blank" href="https://huntr.com/users/kirareys/"><img width=40 height=40 src="https://avatars.githubusercontent.com/u/28839565?v=4"></a>
 <a target="_blank" href="https://leetcode.com/20kilograma/"><img width=40 height=40 src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png"></a>
-
+<a target="_blank" href="https://yeswehack.com/hunters/20kilograma"><img width=40 height=40 src="https://cdn.theorg.com/061445ca-20e5-4d15-819a-bcb80079e553_medium.jpg"></a>
 # >> Blogs and Write-ups
 
 ### <a href="php-sec"> > PHP (detailed 2024) - its security, vulnerable code examples & improvement </a>
