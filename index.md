@@ -17,8 +17,12 @@
 <a target="_blank" href="https://leetcode.com/20kilograma/"><img width=40 height=40 src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png"></a>
 <a target="_blank" href="https://yeswehack.com/hunters/20kilograma"><img width=40 height=40 src="https://cdn.theorg.com/061445ca-20e5-4d15-819a-bcb80079e553_medium.jpg"></a>
 
-# >> Blogs and Write-ups
+# >> Blogs/Write-ups and Research
 
 ### <a href="php-sec"> > PHP (detailed 2024) - its security, vulnerable code examples & improvement </a>
 ### <a href="nullcon-writeup"> > Nullcon-CTF [2023] Web Challenges Writeup </a>
+
+# >> CVEs
+
+### <a href="https://www.cve.org/CVERecord?id=CVE-2024-13518">CVE-2024-13518</a>
 
