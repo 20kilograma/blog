@@ -1,7 +1,7 @@
 # >> About | 20kilograma
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="2025-02-14 225113.png" width="280" height="280">
+  <img style="border-radius: 10px;" src="2025-02-14 225113.png" width="280" height="280">
 
   <div>
     <ul>
