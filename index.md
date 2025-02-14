@@ -38,11 +38,14 @@
   </div>
 </div>
 
+<br>
 
 # >> Blogs/Write-ups and Research
 
 ### <a href="php-sec"> > PHP (detailed 2024) - its security, vulnerable code examples & improvement </a>
 ### <a href="nullcon-writeup"> > Nullcon-CTF [2023] Web Challenges Writeup </a>
+
+<br>
 
 # >> CVEs
 
