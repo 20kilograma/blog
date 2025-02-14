@@ -1,6 +1,6 @@
 # >> About | 20kilograma
 
-<img src="a812b759ab323e1202cac516e092ea8d.jpg" width=380px height=380px>
+<img src="2025-02-14 225113.png" width=380px height=380px>
 
 <ul>
   <li>19/yo from Germany</li>
