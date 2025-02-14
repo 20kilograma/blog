@@ -1,5 +1,7 @@
 # >> About | 20kilograma
 
+<img src="a812b759ab323e1202cac516e092ea8d.jpg" width=380px height=380px>
+
 <ul>
   <li>19/yo from Germany</li>
   <li>Bug Bounty Hunter</li>
