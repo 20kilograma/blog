@@ -12,7 +12,7 @@
       <li>CTF Player</li>
       <li>Sports/Videogames enjoyer</li>
     </ul>
-    <div>
+    <div style="display: flex; gap: 10px; margin-top: 10px;">
       <a target="_blank" href="https://hackerone.com/20kilograma?type=user">
         <img width="40" height="40" src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dgsrzgjf4paklpbom6uj">
       </a>
