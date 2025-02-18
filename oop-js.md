@@ -60,4 +60,6 @@ We already used one keyword above, and that's the <code>prototype</code>, it's t
 <pre><code class="language-js">class Car {}
 console.log(Car.prototype); // { constructor: class Car() [[Prototype]]: Object }</code></pre>
 
+## __proto__
+
 
