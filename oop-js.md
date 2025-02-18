@@ -95,3 +95,5 @@ Car.prototype.go = function() {
 };
 
 const audi = new Car("A3");</code></pre>
+
+![image](https://github.com/user-attachments/assets/34984477-760b-4dab-bc31-08fa3ad94d1d)
