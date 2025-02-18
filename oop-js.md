@@ -18,5 +18,4 @@ Unlike the usual OOP languages, JavaScript is prototype-based, which means that 
 <br><br>
 Imagine you have cookies like from the popular TV Show Squid Game: 
 
-<br>
 <img src="https://freegamesboom.com/media/upload/game/f9/f95ce0ec0dcbe7f9152cee94478e30be.jpg" width=50% height=50%>
