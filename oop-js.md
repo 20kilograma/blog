@@ -8,4 +8,4 @@
 
 # >> About
 
-
+JavaScript is the most widely used language on the web but is also used for desktop (Electron.js) and mobile (React Native, Cordova, etc.) apps. In this a bit shorter blog, I will try to explain the best way possible OOP in JavaScript. I will specifically explain the main differences from the other OOP languages like Java or C# and also give a few examples.
