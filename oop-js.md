@@ -58,6 +58,6 @@ Car.prototype.fuel = "Diesel";</code></pre>
 We already used one keyword above, and that's the <code>prototype</code>, it's the prototype a.k.a. the property under every object that represents the parent object.
 
 <pre><code class="language-js">class Car {}
-console.log(Car.prototype); // { constructor: class Car() [[Prototype]]: {Object}</code></pre>
+console.log(Car.prototype); // { constructor: class Car() [[Prototype]]: Object }</code></pre>
 
 
