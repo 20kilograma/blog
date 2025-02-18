@@ -36,3 +36,20 @@ Cookie.prototype.shape = "star";
 
 Let's now give it technically a go; a prototype is just a hidden parent object that teaches new objects what "they don’t know". When you create a class, JavaScript automatically creates a hidden object called a prototype. 
 The prototype acts like a shared parent for all objects (instances) created from the class. If an object doesn’t know something, it looks up to its prototype to see if it can find it there.
+Take this technical example:
+
+<pre><code class="language-js">class Car {
+    constructor(name) {
+        this.name = name;
+    }
+}
+
+const audi = new Car("A3");
+const bmw = new Car("M3");
+
+Car.prototype.fuel = "Diesel";
+</code>
+</pre>
+
+![image](https://github.com/user-attachments/assets/24442801-9ca2-4414-af45-3d129994dd58)
+
