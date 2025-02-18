@@ -122,3 +122,15 @@ With the update of EcmaScript in 2015, the <code>class</code> syntax was impleme
         console.log("vrrr"); 
     }
 }</code></pre>
+
+<br>
+
+# Dynamic typing
+
+<br>
+
+# Public & Private fields
+
+<br>
+
+# Conclusion
