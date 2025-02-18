@@ -63,4 +63,12 @@ console.log(Car.prototype); // { constructor: class Car() [[Prototype]]: Object 
 ## &#95;&#95;proto&#95;&#95;
 
 This is the internal reference which points to the object <code>prototype</code>, this has been deprecated in the modern browsers, now there are more modern approaches for Get/Set like <code>Object.getPrototypeOf()</code>
-or <code>Object.setPrototypeOf()</code>
+or <code>Object.setPrototypeOf()</code>.
+
+## instanceof
+
+<code>instanceof</code> checks if an object was created from a specific class and returns a boolean type.
+
+<pre><code class="language-js">class Car {}
+const audi = new Car();
+console.log(audi instanceof Car); // true</code></pre>
