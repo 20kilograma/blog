@@ -83,7 +83,7 @@ console.log(audi instanceof Car); // true</code></pre>
 
 # Classic syntax vs ES6 syntax
 
-For our examples we used the classic <code>class</code> syntax, but that wasn't available in the pure JS before the ES6 update. This is how we would create the <code>Car</code> class and <code>audi</code> object from the example above:
+For our examples we used the classic <code>class</code> syntax, but that wasn't available in the pure JS before the ES6 update. Functions, arrays and pretty much everything in JavaScript that is not a default primitive type like numbers or strings is an object. This is how we would create the <code>Car</code> class and <code>audi</code> object from the example above:
 
 <pre><code class="language-js">function Car(name) {
     this.name = name;
@@ -91,9 +91,21 @@ For our examples we used the classic <code>class</code> syntax, but that wasn't 
 
 // You would also have to add methods through the prototypes
 Car.prototype.go = function() {
-    console.log(`vrrr`);
+    console.log("vrrr");
 };
 
 const audi = new Car("A3");</code></pre>
 
 ![image](https://github.com/user-attachments/assets/34984477-760b-4dab-bc31-08fa3ad94d1d)
+
+With the update of EcmaScript in 2015, the <code>class</code> syntax was implemented with no need anymore to use the functions.
+
+<pre><code class="language-js">class Car {
+    constructor(name) {
+        this.name = name;
+    }
+
+    go() { 
+        console.log("vrrr"); 
+    }
+}</code></pre>
