@@ -51,7 +51,7 @@ Car.prototype.fuel = "Diesel";</code></pre>
 
 ![image](https://github.com/user-attachments/assets/197399d7-999e-4230-bd3c-e5e59bd82c5f)
 
-# >> Some keywords
+## Some keywords
 
 ## prototype
 
@@ -80,3 +80,5 @@ or <code>Object.setPrototypeOf()</code>.
 <pre><code class="language-js">class Car {}
 const audi = new Car();
 console.log(audi instanceof Car); // true</code></pre>
+
+# Classic syntax
