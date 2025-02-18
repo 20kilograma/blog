@@ -60,6 +60,14 @@ We already used one keyword above, and that's the <code>prototype</code>, it's t
 <pre><code class="language-js">class Car {}
 console.log(Car.prototype); // { constructor: class Car() [[Prototype]]: Object }</code></pre>
 
+## constructor
+
+This is a property of the prototype that will point back to the class the prototype was created from. Like every OOP language, JS has <code>constructor</code> too, but don't get it mixed up with the<code>constructor()</code>, this is the <u>property of the prototype</u>, not the objects function call when the object is created from the class itself.
+
+<pre><code class="language-js">class Car {}
+console.log(Car.prototype.constructor); // class Car {}
+</code></pre>
+
 ## &#95;&#95;proto&#95;&#95;
 
 This is the internal reference which points to the object <code>prototype</code>, this has been deprecated in the modern browsers, now there are more modern approaches for Get/Set like <code>Object.getPrototypeOf()</code>
@@ -72,11 +80,3 @@ or <code>Object.setPrototypeOf()</code>.
 <pre><code class="language-js">class Car {}
 const audi = new Car();
 console.log(audi instanceof Car); // true</code></pre>
-
-## constructor
-
-This is a property of the prototype that will point back to the class the prototype was created from. Like every OOP language, JS has <code>constructor</code> too, but don't get it mixed up <code>constructor</code> is the a property of the prototype, not the object that's created from the class itself.
-
-<pre><code class="language-js">class Car {}
-console.log(Car.prototype.constructor); // class Car {}
-</code></pre>
