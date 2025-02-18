@@ -24,18 +24,8 @@ Then we take the O cookie and create 4 multiples of them through a cutter machin
   
 <img src="https://i.imgur.com/l3VCaTq.png">
 
-<h1>|
-
-v
-</h1>
-
 <pre><code class="language-js">// Machine changes the shape<br>
 Cookie.prototype.shape = "star";
 </code></pre>
-
-<h1>|
-
-v
-</h1>
 
 <img src="https://i.imgur.com/kM1Htg0.png">
