@@ -85,7 +85,7 @@ console.log(audi instanceof Car); // true</code></pre>
 
 # Classic syntax vs ES6 syntax
 
-For our examples we used the classic <code>class</code> syntax, but that wasn't available in the pure JS before the ES6 update. Functions, arrays and pretty much everything in JavaScript that is not a default primitive type like numbers or strings is an object. This is how we would create the <code>Car</code> class and <code>audi</code> object from the example above:
+For our examples, we used the classic <code>class</code> syntax, but that wasn't available in the pure JS before the ES6 update. Functions, arrays, and pretty much everything in JavaScript that is not a default primitive type like numbers or strings is an object. This is how we would create the <code>Car</code> class and <code>audi</code> object from the example above:
 
 <pre><code class="language-js">function Car(name) {
     this.name = name;
