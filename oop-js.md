@@ -11,6 +11,15 @@
 JavaScript is the most widely used language on the web but is also used for desktop (Electron.js) and mobile (React Native, Cordova, etc.) apps. In this a bit shorter blog, I will try to explain the best way possible OOP in JavaScript. I will specifically explain the main differences from the other OOP languages like Java or C# and also give a few examples, which may help you if you are new to JS, but already have some experience in other languages.
 
 # >> Outline
+<ul>
+  <li>About</li>
+  <li>Prototype (based) language</li>
+  <ul>
+    <li>Some keywords</li>
+  </ul>
+  <li>Classic syntax vs ES6 syntax</li>
+  <li>Conclusion</li>
+</ul>
 
 # >> Prototype (based) language
 
