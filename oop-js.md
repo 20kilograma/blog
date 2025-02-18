@@ -18,6 +18,7 @@ JavaScript is the most widely used language on the web but is also used for desk
     <li>Some keywords</li>
   </ul>
   <li>Classic syntax vs ES6 syntax</li>
+  <li>Other small differences</li>
   <li>Conclusion</li>
 </ul>
 
