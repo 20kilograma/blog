@@ -53,7 +53,7 @@ Car.prototype.fuel = "Diesel";</code></pre>
 
 # >> Some keywords
 
-## >> prototype
+## prototype
 
 We already used one keyword above, and that's the <code>prototype</code>, it's the prototype a.k.a. the property under every object that represents the parent object.
 
