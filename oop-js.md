@@ -81,4 +81,19 @@ or <code>Object.setPrototypeOf()</code>.
 const audi = new Car();
 console.log(audi instanceof Car); // true</code></pre>
 
-# Classic syntax
+# Classic syntax vs ES6 syntax
+
+For our examples we used the classic <code>class</code> syntax, but that wasn't available in the pure JS before the ES6 update. This is how we would create the <code>Car</code> class and <code>audi</code> object from the example above:
+
+<pre><code class="language-js">function Car(name) {
+    this.name = name;
+}
+
+// You would also have to add methods through the prototypes
+Car.prototype.go = function() {
+    console.log(`vrrr`);
+};
+
+const audi = new Car("A3");
+console.log(audi.name); // A3
+audi.go(); // vrrr </code></pre>
