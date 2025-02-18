@@ -94,6 +94,4 @@ Car.prototype.go = function() {
     console.log(`vrrr`);
 };
 
-const audi = new Car("A3");
-console.log(audi.name); // A3
-audi.go(); // vrrr </code></pre>
+const audi = new Car("A3");</code></pre>
