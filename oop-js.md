@@ -22,4 +22,19 @@ Imagine you have cookies like from the popular TV Show Squid Game:
 
 Then we take the O cookie and create 4 multiples of them through a cutter machine that cuts them perfectly, and every one of them is totally identical. Now imagine on that machine you change the shape, and magically all the cookies you previously cut change the shape too; in this case, the "machine" is the prototype in JavaScript.
 
+<center>
+  
 <img src="https://i.imgur.com/l3VCaTq.png">
+
+<h1>|<br>v</h1>h1>
+
+<code class="language-js">
+// Machine changes the shape
+Cookie.prototype.shape = "star";
+</code>
+
+<h1>|<br>v</h1>h1>
+
+<img src="https://i.imgur.com/kM1Htg0.png">
+
+</center>
