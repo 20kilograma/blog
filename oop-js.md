@@ -28,10 +28,10 @@ Then we take the O cookie and create 4 multiples of them through a cutter machin
 v
 </h1>
 
-<code class="language-js">
+<pre><code class="language-js">
   // Machine changes the shape
   Cookie.prototype.shape = "star";
-</code>
+</code></pre>
 
 <h1>|
 v
