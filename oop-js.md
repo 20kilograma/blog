@@ -47,9 +47,7 @@ Take this technical example:
 const audi = new Car("A3");
 const bmw = new Car("M3");
 
-Car.prototype.fuel = "Diesel";
-</code>
-</pre>
+Car.prototype.fuel = "Diesel";</code></pre>
 
 ![image](https://github.com/user-attachments/assets/24442801-9ca2-4414-af45-3d129994dd58)
 
