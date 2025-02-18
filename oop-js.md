@@ -49,5 +49,6 @@ const bmw = new Car("M3");
 
 Car.prototype.fuel = "Diesel";</code></pre>
 
-![image](https://github.com/user-attachments/assets/24442801-9ca2-4414-af45-3d129994dd58)
+![image](https://github.com/user-attachments/assets/197399d7-999e-4230-bd3c-e5e59bd82c5f)
+
 
