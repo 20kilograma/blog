@@ -158,7 +158,7 @@ audi.price = 15000;</code></pre>
 
 Also later if you want to change for example the <code>audi.name</code> to an integer like this:
 <pre><code class="language-js">audi.name = 123;</code></pre><br>
-This would not cause any errors normally, because there is not type safety in JavaScript, unlike other languages like Java.
+This would not cause any errors normally, because there is no type safety in JavaScript, unlike other languages like Java.
 
 <br>
 
