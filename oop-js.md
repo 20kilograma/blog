@@ -164,7 +164,7 @@ This would not cause any errors normally, because there is no type safety in Jav
 
 # Public & Private fields
 
-By default the fields in JavaScript are public, if you want to make them inaccessible from out of the class you need to add the <i>#</i> prefix before the field to make them private, take this for example:
+By default the fields in JavaScript are public; if you want to make them inaccessible from outside the class, you need to add the <i>#</i> prefix before the field to make them private. Take this for example:
 
 <pre><code class="language-js">class Car {
     #name;  // Private field
@@ -181,7 +181,7 @@ let audi = new Car("A5", 13000);
 console.log(audi.#price); // Syntax error
 audi.#name = "A4"; // Syntax error</code></pre>
 
-You can also create private methods by adding <i>#</i> prefix. Since JavaScript was not by default designed to be an OOP language, there is no <code>protected</code> keyword.
+You can also create private methods by adding the <i>#</i> prefix. Since JavaScript was not by default designed to be an OOP language, there is no <code>protected</code> keyword.
 
 <br>
 
