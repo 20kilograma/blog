@@ -127,6 +127,39 @@ With the update of EcmaScript in 2015, the <code>class</code> syntax was impleme
 
 # Dynamic typing
 
+Properties in JavaScript are dynamically typed, which means you won't have to specify a type for the property. JS does it automatically for you. 
+Take this example in Java:
+<pre><code class="language-java">class Car {
+    private String name;
+    private int price;
+
+    public Car(String name, int price) {
+        this.name = name;
+        this.price = price;
+    }
+}
+
+Car audi = new Car("A5", 13000);
+</code></pre>
+
+Notice the types above (<code>name</code> - String and <code>price</code> - Integer).
+In JS it would be like this:
+<pre><code class="language-js">class Car {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+}
+
+let audi = new Car("A5", 13000);
+
+audi.name = "A6";
+audi.price = 15000;</code></pre>
+
+Also later if you want to change for example the <code>audi.name</code> to an integer like this:
+<pre><code class="language-js">audi.name = 123;</code></pre><br>
+This would not cause any errors normally, because there is not type safety in JavaScript, unlike other languages like Java.
+
 <br>
 
 # Public & Private fields
