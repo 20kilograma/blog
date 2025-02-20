@@ -164,6 +164,25 @@ This would not cause any errors normally, because there is no type safety in Jav
 
 # Public & Private fields
 
+By default the fields in JavaScript are public, if you want to make them inaccessible from out of the class you need to add the <i>#</i> prefix before the field to make them private, take this for example:
+
+<pre><code class="language-js">class Car {
+    #name;  // Private field
+    #price; // Private field
+
+    constructor(name, price) {
+        this.#name = name;
+        this.#price = price;
+    }
+}
+
+let audi = new Car("A5", 13000);
+
+console.log(audi.#price); // Syntax error
+audi.#name = "A4"; // Syntax error</code></pre>
+
+You can also create private methods by adding <i>#</code> prefix. Since JavaScript was not by default designed to be an OOP language, there is no <code>protected</code> keyword.
+
 <br>
 
 # Conclusion
