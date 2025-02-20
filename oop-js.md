@@ -1,6 +1,6 @@
 <center>
   
-<h1> OOP in JavaScript & some differences from other languages </h1>
+<h1> OOP in JavaScript & some differences from the other languages </h1>
 
 </center>
 
