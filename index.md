@@ -42,7 +42,7 @@
 
 # >> Blogs/Write-ups and Research
 
-### <a href="oop-js"> > OOP in JavaScript & some differences from other languages </a>
+### <a href="oop-js"> > OOP in JavaScript & some differences from the other languages </a>
 ### <a href="php-sec"> > PHP (detailed 2024) - its security, vulnerable code examples & improvement </a>
 ### <a href="nullcon-writeup"> > Nullcon-CTF [2023] Web Challenges Writeup </a>
 
