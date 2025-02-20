@@ -184,5 +184,3 @@ audi.#name = "A4"; // Syntax error</code></pre>
 You can also create private methods by adding the <i>#</i> prefix. Since JavaScript was not by default designed to be an OOP language, there is no <code>protected</code> keyword.
 
 <br>
-
-# Conclusion
