@@ -73,7 +73,7 @@ console.log(Car.prototype); // { constructor: class Car() [[Prototype]]: Object 
 
 ## constructor
 
-This is a property of the prototype that will point back to the class the prototype was created from. Like every OOP language, JS has <code>constructor()</code> too, but don't get it mixed up with the <code>constructor()</code>, this is the <u>property of the prototype</u>, not the object's function call when the object is created from the class itself.
+This is a property of the prototype that will point back to the class the prototype was created from. Like every OOP language, JS has <code>constructor()</code> too, but don't get it mixed up with the <code>constructor</code>, this is the <u>property of the prototype</u>, not the object's function call when the object is created from the class itself.
 
 <pre><code class="language-js">class Car {}
 console.log(Car.prototype.constructor); // class Car {}
