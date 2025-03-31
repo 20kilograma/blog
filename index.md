@@ -50,5 +50,5 @@
 
 # >> CVEs
 
+### <a href="https://www.cve.org/CVERecord?id=CVE-2025-31386"> > CVE-2025-31386 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2024-13518"> > CVE-2024-13518 </a>
-
