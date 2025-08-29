@@ -5,12 +5,13 @@
 
   <div>
     <ul>
-      <li>19/yo from Germany</li>
-      <li>Bug Bounty Hunter</li>
-      <li>Web Dev</li>
-      <li>Web Security Engineer</li>
-      <li>CTF Player</li>
-      <li>Sports/Videogames enjoyer</li>
+      <code>
+        <li>19/yo from Germany</li>
+        <li>Fullstack Dev</li>
+        <li>Web Security Engineer</li>
+        <li>CTF Player</li>
+        <li>Sports/Videogames enjoyer</li>
+      </code>
     </ul>
     <div style="display: flex; gap: 10px; margin-top: 10px;">
       <a target="_blank" href="https://hackerone.com/20kilograma?type=user">
