@@ -4,7 +4,7 @@
 
 </center>
 
-<img src="https://gatling.io/hubfs/Website/Features/JavaScript/Banner%20-%20JavaScript.png">
+<img src="https://cdn-media-0.freecodecamp.org/2019/07/this-is-javascript.jpeg" />
 
 # >> About
 
