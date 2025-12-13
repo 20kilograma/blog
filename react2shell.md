@@ -34,11 +34,11 @@ The vulnerability was found in a protocol called Flight, which handles communica
 }
 </code></pre>
 <br>
-Using this payload takes advantage of deserialization by creating a harmful "gadget" chain that deceives the server into running arbitrary code while handling the received data. The exploit depends on the React Flight protocol permitting JSON strings to refer to segments of the object (via the $ syntax) and the servers automatic attempt to "resolve" objects resembling Promises. By adding a property called <code>then</code> to the root object the attacker generates a custom <code>then</code> Promise. When the server comes across this object it automatically tries to await it (the Promise) causing the execution of the code linked to that then property.
+Using this payload takes advantage of deserialization by creating a harmful "gadget" chain that deceives the server into running arbitrary code while handling the received data. The exploit depends on the React Flight protocol permitting JSON strings to refer to segments of the object (via the $ syntax) and the servers automatic attempt to "resolve" objects resembling Promises. By adding a property called <b>then</b> to the root object the attacker generates a custom <b>then</b> Promise. When the server comes across this object it automatically tries to await it (the Promise) causing the execution of the code linked to that then property.
 <br><br>
-The payload contains the logic within the <code>_response</code> and <code>_formData</code> properties, using the path <code>$1:constructor:constructor</code> to reach the JavaScript global <code>Function</code> constructor. This access enables the attacker to convert a string of the <code>_prefix</code> value holding 
+The payload contains the logic within the <i>_response</i> and <i>_formData</i> properties, using the path <code>$1:constructor:constructor</code> to reach the Javascript global <b>Function</b> constructor. This access enables the attacker to convert a string of the <i>_prefix</i> value holding 
 <pre><code class="language-javascript">process.mainModule.require('child_process).execSync('whoami')</code></pre> 
-into runnable Javascript code. By linking the <code>then</code> property to this dynamically created function, the exploit is done. The server deserializes the object, sees it as a <code>Promise</code>, calls <code>then()</code> to resolve it, and then executes the payload from the <code>_prefix</code> "string".
+into runnable Javascript code. By linking the <b>then</b> property to this dynamically created function, the exploit is done. The server deserializes the object, sees it as a <b>Promise</b>, calls <i>then()</i> to resolve it, and then executes the payload from the <i>_prefix</i> "string".
 
 <br>
 <br>
