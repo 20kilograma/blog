@@ -15,7 +15,7 @@ Notice how I said <i>primarily</i> for FrontEnd web development? That's because 
 
 # >> Vulnerability
 
-The vulnerability was found in a protocol called Flight, which handles communication between the client and server in React Server Components. It is used to send component data and results back and forth over HTTP. The issue lies in how the server parses user-supplied data. It blindly trusts serialized payloads from the client and deserializes them without sufficient validation. This is where the vulnerability occurs, as it can lead to unsafe deserialization(server-side execution). <br>
+The vulnerability was found in a protocol called Flight, which handles communication between the client and server in React Server Components. It is used to send component data and results back and forth over HTTP. The issue lies in how the server parses user-supplied data. It blindly trusts serialized payloads from the client and deserializes them without sufficient validation. This is where the vulnerability occurs, as it can lead to insecure deserialization(server-side execution). <br>
 
 # >> Payload
 <pre><code class="language-json">
