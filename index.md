@@ -41,6 +41,7 @@
 
 # >> Blogs/Write-ups and Research
 
+### <a href="react2shell"> > CVE-2025-55182 - React2Shell Overview </a>
 ### <a href="oop-js"> > OOP in JavaScript & some differences from the other languages </a>
 ### <a href="php-sec"> > PHP (detailed 2024) - its security, vulnerable code examples & improvement </a>
 ### <a href="nullcon-writeup"> > Nullcon-CTF [2023] Web Challenges Writeup </a>
