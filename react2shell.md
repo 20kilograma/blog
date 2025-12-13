@@ -37,7 +37,7 @@ The vulnerability was found in a protocol called Flight, which handles communica
 Using this payload takes advantage of deserialization by creating a "gadget" chain, that deceives the server into running arbitrary code while handling the received data. The exploit depends on the React Flight protocol permitting JSON strings to refer to segments of the object (via the $ syntax) and the servers automatic attempt to "resolve" objects resembling Promises. By adding a property called <b>then</b> to the root object the attacker generates a custom <b>then</b> Promise. When the server comes across this object it automatically tries to await it (the Promise) causing the execution of the code linked to that <b>then</b> property.
 <br><br>
 The payload contains the logic within the <i>_response</i> and <i>_formData</i> properties, using the path <code>$1:constructor:constructor</code> to reach the Javascript global <b>Function</b> constructor. This access enables the attacker to convert a string of the <i>_prefix</i> value holding 
-<pre><code class="language-javascript">process.mainModule.require('child_process).execSync('whoami')</code></pre> 
+<pre><code class="language-javascript">process.mainModule.require('child_process').execSync('whoami')</code></pre> 
 into runnable Javascript code. By linking the <b>then</b> property to this dynamically created function, the exploit is done. The server deserializes the object, sees it as a <b>Promise</b>, calls <i>then()</i> to resolve it, and then executes the payload from the <i>_prefix</i> "string".
 
 <br>
