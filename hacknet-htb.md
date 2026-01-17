@@ -1,4 +1,8 @@
+<center>
+  
 # Machine - HackNet (Medium)
+
+</center>
 
 <img width="876" height="529" alt="image" src="https://github.com/user-attachments/assets/680211e7-daae-4b64-a1ae-a74373641dcb" />
 
