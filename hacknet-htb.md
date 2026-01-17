@@ -75,3 +75,11 @@ exploit_wizard:Expl01tW!zard
 deepdive:D33pD!v3r
 whitehat:Wh!t3H@t2024
 </code></pre>
+<br>
+<pre><code class="language-bash">$ ssh mikey@hacknet.htb
+mikey@hacknet:~$ ls
+user.txt
+mikey@hacknet:~$ cat user.txt
+cf21b12c7188de273c6c1168c7580f7d
+mikey@hacknet:~$ 
+</code></pre>
