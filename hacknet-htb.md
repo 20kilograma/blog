@@ -1,6 +1,6 @@
 <center>
   
-# Machine - HackNet (Medium)
+<h1>Machine - HackNet (Medium)</h1>
 
 </center>
 
