@@ -65,7 +65,7 @@ codebreaker:C0d3Br3@k!
 packetpirate:P@ck3tP!rat3
 stealth_hawk:St3@lthH@wk
 shadowmancer:Sh@d0wM@ncer
-mikey:mYd4rks1dEisH3re
+mikey:&lt;REDACTED>
 bytebandit:Byt3B@nd!t123
 blackhat_wolf:Bl@ckW0lfH@ck
 darkseeker:D@rkSeek3r#
