@@ -26,3 +26,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 7.49 seconds
 </code></pre>
+<br>
+We have only HTTP and SSH ports open. After visiting the web app via the virtual host <i>hacknet.htb</i>, this is what we see: <br>
+<img width="748" height="377" alt="image" src="https://github.com/user-attachments/assets/85459d7f-7adf-4323-af98-6754c8038a5f" />
+
+
