@@ -37,10 +37,10 @@ Here, it wasn't the classic case of Jinja2 Template, it was Djangos Own Template
 <pre><code class="language-none">{{ users }}</code></pre>
 Response:
 <pre><code class="language-html"><!-- ...PROFILES FROM OTHER USERS -->
-  <div class="likes-review-item">
-    <a href="/profile/27">
-        <img src="/media/profile.png" title="&lt;QuerySet [&lt;SocialUser: hexhunter&gt;, &lt;SocialUser: shadowcaster&gt;, &lt;SocialUser: blackhat_wolf&gt;, &lt;SocialUser: glitch&gt;, &lt;SocialUser: codebreaker&gt;, &lt;SocialUser: shadowmancer&gt;, &lt;SocialUser: whitehat&gt;, &lt;SocialUser: brute_force&gt;, &lt;SocialUser: shadowwalker&gt;, &lt;SocialUser: {{ users }}&gt;]&gt;">
-    </a>
-</div></code></pre>
+  &lt;div class="likes-review-item">
+    &lt;a href="/profile/27">
+        &lt;img src="/media/profile.png" title="&lt;QuerySet [&lt;SocialUser: hexhunter&gt;, &lt;SocialUser: shadowcaster&gt;, &lt;SocialUser: blackhat_wolf&gt;, &lt;SocialUser: glitch&gt;, &lt;SocialUser: codebreaker&gt;, &lt;SocialUser: shadowmancer&gt;, &lt;SocialUser: whitehat&gt;, &lt;SocialUser: brute_force&gt;, &lt;SocialUser: shadowwalker&gt;, &lt;SocialUser: {{ users }}&gt;]&gt;">
+    &lt;/a>
+&lt;/div></code></pre>
 
 
