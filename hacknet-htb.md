@@ -82,5 +82,4 @@ mikey@hacknet:~$ ls
 user.txt
 mikey@hacknet:~$ cat user.txt
 <REDACTED>
-mikey@hacknet:~$ 
-</code></pre>
+mikey@hacknet:~$ </code></pre>
