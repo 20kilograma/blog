@@ -48,6 +48,10 @@
 
 <br>
 
+# >> HackTheBox (HTB)
+
+<br>
+
 # >> CVEs
 
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2025-32227"> > CVE-2025-32227 </a>
