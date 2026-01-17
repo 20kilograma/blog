@@ -5,7 +5,7 @@
 Hello everyone, today I am writing a write-up for the HackNet machine on HackTheBox. It featured a Django based web application vulnerable to Server-Side Template Injection which later allowed for information disclosure through which we got shell access.<br><br>
 
 Initial nmap Scan:
-<pre><code>Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-17 17:32 CET
+<pre><code class="language-none">Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-17 17:32 CET
 Nmap scan report for 10.129.3.27
 Host is up (0.016s latency).
 Not shown: 998 closed tcp ports (conn-refused)
