@@ -81,5 +81,5 @@ We have the user flag:
 mikey@hacknet:~$ ls
 user.txt
 mikey@hacknet:~$ cat user.txt
-<REDACTED>
+{% raw %}<REDACTED>{% endraw %}
 mikey@hacknet:~$ </code></pre>
