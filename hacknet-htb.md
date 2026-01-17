@@ -31,6 +31,6 @@ We have only HTTP and SSH ports open. After visiting the web app via the virtual
 <br>
 <img width="748" height="377" alt="image" src="https://github.com/user-attachments/assets/85459d7f-7adf-4323-af98-6754c8038a5f" />
 <br>
-I created a new account and started testing various parameters on the social media platform. After quite some time, I struck luck with the username field. I found that it gets reflected in the response of the <code></co><b>GET</b> /like/{POST_ID}</code> endpoint, which was vulnerable to SSTI (although it's very limited). The request is triggered when you click to see who liked certain post.<br>
+I created a new account and started testing various parameters on the social media platform. After quite some time, I struck luck with the username field. I found that it gets reflected in the response of the <code><b>GET</b> /like/{POST_ID}</code> endpoint, which was vulnerable to SSTI (although it's very limited). The request is triggered when you click to see who liked certain post.<br>
 <img width="1364" height="222" alt="image" src="https://github.com/user-attachments/assets/075bcd2d-3645-4e99-a4e4-2081d49f9440" />
 
