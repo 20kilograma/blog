@@ -2,9 +2,9 @@
   
 <h1>Machine - HackNet (Medium)</h1>
 
-</center>
-
 <img width="876" height="529" alt="image" src="https://github.com/user-attachments/assets/680211e7-daae-4b64-a1ae-a74373641dcb" />
+
+</center>
 
 Hello everyone, today I am writing a write-up for the HackNet machine on HackTheBox. It featured a Django based web application vulnerable to Server-Side Template Injection which later allowed for information disclosure through which we got shell access.<br><br>
 
