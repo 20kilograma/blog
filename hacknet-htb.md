@@ -115,4 +115,20 @@ if os.path.exists("/var/tmp/django_cache"):
 <br>
 If we navigate to home directory of sandy, we can find GPG backup key(armored_key.asc). We need the GPG private key to decrypt this backup, but the key itself is password protected. Sp what we need to do, we must export the key and crack its passphrase using tool like JohnTheRipper/Hashcat with <b>rockyou.txt</b> wordlist.  
 <img width="905" height="156" alt="image" src="https://github.com/user-attachments/assets/4cd6349e-22d2-49bb-ba79-fa199656c2da" />
+<br>
+Now that we have the passphrase to read the backup files, we can navigate back to <i>/var/www/HackNet/backups</i> and read those 3 backup GPG files.
+<pre><code class="language-none">$ gpg --decrypt backup02.sql.gpg > /tmp/backup02.sql</code></pre>
+<br>
+In <b>backup02.sql</b> we can grep for 'password', there are logs in which we find the root password. 
+<pre><code class="language-none">$ su root
+Password: &lt;REDACTED>
+root@hacknet:~# ls
+root.txt
+root@hacknet:~# cat root.txt
+&lt;REDACTED>
+</code></pre>
 
+<br>
+<br>
+
+# Thank you for reading this Writeup, appreciate it <3 and I’ll soon write more!
