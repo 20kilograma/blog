@@ -50,6 +50,8 @@
 
 # >> HackTheBox (HTB)
 
+### <a href="hacknet-htb"> > Machine - HackNet </a>
+
 <br>
 
 # >> CVEs
