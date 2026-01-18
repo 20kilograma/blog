@@ -81,8 +81,7 @@ We have the user flag:
 mikey@hacknet:~$ ls
 user.txt
 mikey@hacknet:~$ cat user.txt
-&lt;REDACTED>
-mikey@hacknet:~$ </code></pre>
+&lt;REDACTED></code></pre>
 <br>
 <br>
 Now onto Privilage Escalation to obtain the root flag. If we look at the web app directory, settings.py reveals there is a Django FileBasedCache configuration. It gets triggered when we visit the <i>/explore</i> page and saved to <i>/var/tmp/django_cache</i>.
