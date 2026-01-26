@@ -29,7 +29,7 @@ Unlike the usual OOP languages, JavaScript is prototype-based, which means that 
 <br><br>
 Imagine you have cookies like from the popular TV Show Squid Game: 
 
-<img src="https://freegamesboom.com/media/upload/game/f9/f95ce0ec0dcbe7f9152cee94478e30be.jpg">
+<img width="740" height="370" alt="image" src="https://github.com/user-attachments/assets/2a81a1a1-c0c1-47b0-889f-91c216c54187" />
 
 Then we take the O cookie and create 4 multiples of them through a cutter machine that cuts them perfectly, and every one of them is totally identical. Now imagine on that machine you change the shape, and magically all the cookies you previously cut change the shape too; in this case, the "machine" is the prototype in JavaScript.
   
