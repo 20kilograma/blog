@@ -73,6 +73,16 @@ marco@codeparttwo:~$ cat user.txt
 &lt;REDACTED>
 </code></pre>
 <br>
+Onto privilage escalation to root, we check which files we can run using sudo:
+<pre><code class="language-none">marco@codeparttwo:~$ sudo -l
+Matching Defaults entries for marco on codeparttwo:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User marco may run the following commands on codeparttwo:
+    (ALL : ALL) NOPASSWD: /usr/local/bin/npbackup-cli
+</code></pre>
+
 
 
 
