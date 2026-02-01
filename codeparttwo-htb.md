@@ -66,7 +66,7 @@ If we check the <bold>~/app/instance</bold> directory, we can see there is a <i>
 <pre><code class="language-none">SELECT * FROM user;
 1|marco|649c9d65a206a75f5abe509fe128bce5
 2|app|a97588c0e2fa3a024876339e27aeb42e</code></pre>
-Now when we crack the hash for <i>marco</i> user on crackstation we can ssh into the machine as <i>marco</i>. We get the user flag.
+We just have to crack the hash for <i>marco</i> user on crackstation, so we can ssh into the machine as <i>marco</i> to get the user flag.
 <pre><code class="language-none">marco@codeparttwo:~$ ls
 backups  npbackup.conf  user.txt
 marco@codeparttwo:~$ cat user.txt 
