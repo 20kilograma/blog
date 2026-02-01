@@ -6,7 +6,7 @@
 
 </center>
 
-Hello everyone, today I am writing a write-up for the CodePartTWo machine on HackTheBox. It featured a vulnerable Js2Py library within a Flask application that allowed for a sandbox escape and then Remote Code Execution.<br><br>
+Hello everyone, today I am writing a write-up for the CodePartTwo machine on HackTheBox. It featured a vulnerable Js2Py library within a Flask application that allowed for a sandbox escape and then Remote Code Execution.<br><br>
 
 Initial nmap Scan:
 <pre><code class="language-none">Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-01 17:17 CET
