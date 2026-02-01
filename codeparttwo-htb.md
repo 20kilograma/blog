@@ -2,7 +2,7 @@
   
 <h1>Machine - CodePartTwo (Easy)</h1>
 
-<img width="872" height="539" alt="image" src="https://github.com/user-attachments/assets/4316d490-3903-45e6-870d-43c8cb7a69f6" />
+<img width="872" height="536" alt="image" src="https://github.com/user-attachments/assets/4316d490-3903-45e6-870d-43c8cb7a69f6" />
 
 </center>
 
