@@ -51,6 +51,7 @@
 # >> HackTheBox (HTB)
 
 ### <a href="hacknet-htb"> > Machine - HackNet </a>
+### <a href="codeparttwo-htb"> > Machine - CodePartTwo </a>
 
 <br>
 
