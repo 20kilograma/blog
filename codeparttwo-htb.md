@@ -73,7 +73,7 @@ marco@codeparttwo:~$ cat user.txt
 &lt;REDACTED>
 </code></pre>
 <br>
-Onto privilege escalation to root, we check which files we can run using <i>sudo</i>:
+Onto privilege escalation to root, we check which files we can run with <i>sudo</i>:
 <pre><code class="language-none">marco@codeparttwo:~$ sudo -l
 Matching Defaults entries for marco on codeparttwo:
     env_reset, mail_badpass,
