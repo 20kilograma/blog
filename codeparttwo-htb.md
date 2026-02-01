@@ -82,8 +82,6 @@ Matching Defaults entries for marco on codeparttwo:
 User marco may run the following commands on codeparttwo:
     (ALL : ALL) NOPASSWD: /usr/local/bin/npbackup-cli
 </code></pre>
-
-
-
+This is good, we already have the configuration file in our home directory which points the path to <b>/home/app/app </b>.
 
 
