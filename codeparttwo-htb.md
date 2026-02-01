@@ -35,6 +35,10 @@ When we download the app, we can see it's a Flask Web App. If we check the <i>re
 flask-sqlalchemy==3.1.1
 js2py==0.74</code></pre>
 <br>
-It contains a vulnerable version of <b>js2py</b> to <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-28397">CVE-2024–28397</a>.
+It contains a vulnerable version of <b>js2py</b> to <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-28397">CVE-2024–28397</a>. <br>
+After we register and log in on the web app, there is a Code Editor that allows us to run JavaScript code, we can read the source code from the zip we downloaded, but it was pretty obvious that here is the place where the vulnerable
+version of <b>js2py</b> is being used.
+<img width="976" height="887" alt="image" src="https://github.com/user-attachments/assets/35eae281-9010-4ebf-8710-ffc83d8dbb48" />
+
 
 
