@@ -82,6 +82,29 @@ Matching Defaults entries for marco on codeparttwo:
 User marco may run the following commands on codeparttwo:
     (ALL : ALL) NOPASSWD: /usr/local/bin/npbackup-cli
 </code></pre>
-This is good, we already have the configuration file in our home directory which points the path to <b>/home/app/app </b>.
+This is good, we already have the configuration file in our home directory which points the path to <b>/home/app/app </b>. Now we can just create another copy of the configuration file which points to the <b>/root</b> and run the backup with sudo.
+<pre><code class="language-none">marco@codeparttwo:~$ cat npbackuproot.conf 
+conf_version: 3.0.1
+audience: public
+repos:
+  default:
+    repo_uri: 
+      __NPBACKUP__wd9051w9Y0p4ZYWmIxMqKHP81/phMlzIOYsL01M9Z7IxNzQzOTEwMDcxLjM5NjQ0Mg8PDw8PDw8PDw8PDw8PD6yVSCEXjl8/9rIqYrh8kIRhlKm4UPcem5kIIFPhSpDU+e+E__NPBACKUP__
+    repo_group: default_group
+    backup_opts:
+      paths:
+      - /root
+      source_type: folder_list
+      exclude_files_larger_than: 0.0
+    repo_opts:
+      repo_password: 
+        __NPBACKUP__v2zdDN21b0c7TSeUZlwezkPj3n8wlR9Cu1IJSMrSctoxNzQzOTEwMDcxLjM5NjcyNQ8PDw8PDw8PDw8PDw8PD0z8n8DrGuJ3ZVWJwhBl0GHtbaQ8lL3fB0M=__NPBACKUP__
+      retention_policy: {}
+      prune_max_unused: 0
+    prometheus: {}
+    env: {}
+    is_protected: false
+...LOT MORE
+</code></pre>
 
 
