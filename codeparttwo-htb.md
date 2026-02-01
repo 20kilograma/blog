@@ -6,7 +6,7 @@
 
 </center>
 
-Hello everyone, today I am writing a write-up for the CodePartTWo machine on HackTheBox. It featured a vulnerable Js2Py library within a Flask application that allowed for a sandbox escape and Remote Code Execution.<br><br>
+Hello everyone, today I am writing a write-up for the CodePartTWo machine on HackTheBox. It featured a vulnerable Js2Py library within a Flask application that allowed for a sandbox escape and then Remote Code Execution.<br><br>
 
 Initial nmap Scan:
 <pre><code class="language-none">Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-02-01 17:17 CET
@@ -27,3 +27,14 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 7.43 seconds
 </code></pre>
+<br>
+Now as you can see, we only have SSH and HTTP 8000 open. When we visit the web app we can see this:
+<img width="928" height="900" alt="image" src="https://github.com/user-attachments/assets/73d69581-5e30-4494-a026-32d0f5c607ff" /> <br>
+When we download the app, we can see it's a Flask Web App. If we check the <i>requirements.txt</i> file for libraries that are included in the application: <br>
+<pre><code class="language-none">flask==3.0.3
+flask-sqlalchemy==3.1.1
+js2py==0.74</code></pre>
+<br>
+It contains a vulnerable version of <b>js2py</b> to <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-28397">CVE-2024–28397</a>.
+
+
