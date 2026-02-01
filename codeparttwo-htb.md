@@ -28,7 +28,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 7.43 seconds
 </code></pre>
 <br>
-Now as you can see, we only have SSH and HTTP 8000 open. When we visit the web app we can see this:
+Now, as you can see, we only have SSH and HTTP 8000 open. When we visit the web app we can see this:
 <img width="928" height="900" alt="image" src="https://github.com/user-attachments/assets/73d69581-5e30-4494-a026-32d0f5c607ff" /> <br>
 When we download the app, we can see it's a Flask Web App. If we check the <i>requirements.txt</i> file for libraries that are included in the application: <br>
 <pre><code class="language-none">flask==3.0.3
