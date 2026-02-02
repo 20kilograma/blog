@@ -62,7 +62,7 @@ result</code></pre>
 <br>
 Now obviously we have the shell as <i>app</i>. We need to escalate the privileges further for the normal user to get the user flag. <br>
 <img width="467" height="59" alt="image" src="https://github.com/user-attachments/assets/537d4d01-8147-4fce-ac4d-e089fc5130c4" /> <br>
-If we check the <b>~/app/instance</b> directory, we can see there is a <i>users.db</i> file, when we open the file, we can see there is a <i>user</i>, now we select all the users from there:
+If we check the <b>~/app/instance</b> directory, we can see there is a <i>users.db</i> file, when we open the file, we can see there is a <i>user</i> table, now we select all the users from there:
 <pre><code class="language-none">SELECT * FROM user;
 1|marco|649c9d65a206a75f5abe509fe128bce5
 2|app|a97588c0e2fa3a024876339e27aeb42e</code></pre>
