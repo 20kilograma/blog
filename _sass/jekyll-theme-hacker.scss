@@ -204,7 +204,11 @@ pre {
 }
 
 pre code.language-none {
-  color: #333333;
+  color: #e0e0e0;
+}
+
+pre:has(code.language-none) {
+  background: #1a1a1a !important;
 }
 
 code.highlighter-rouge {
