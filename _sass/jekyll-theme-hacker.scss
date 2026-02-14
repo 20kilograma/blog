@@ -203,6 +203,10 @@ pre {
   overflow-y: hidden;
 }
 
+pre code.language-none {
+  color: #333333;
+}
+
 code.highlighter-rouge {
   background: #e8f4e8;
   border: 1px solid #c0d0c0;
