@@ -186,7 +186,6 @@ blockquote {
 }
 
 code { 
-  background-color: #2e2e2e;
   color: #dcdcdc; 
   padding: 0.2em 0.4em; 
   font-size: 0.95em;
@@ -209,6 +208,9 @@ pre code.language-none {
 
 pre:has(code.language-none) {
   background: #1a1a1a !important;
+}
+code.language-none {
+  background-color: #2e2e2e;
 }
 
 code.highlighter-rouge {
