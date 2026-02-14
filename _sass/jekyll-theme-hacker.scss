@@ -103,7 +103,9 @@ header h2 {
   -webkit-font-smoothing: antialiased;
 }
 section img {
-  max-width: 100%
+  max-width: 100%;
+  background-color: #000;
+  border-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
