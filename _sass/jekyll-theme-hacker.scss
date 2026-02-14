@@ -187,6 +187,7 @@ blockquote {
 
 code { 
   color: #dcdcdc; 
+  background-color: #2e2e2e;
   padding: 0.2em 0.4em; 
   font-size: 0.95em;
   font-family: Consolas, 'Courier New', monospace;
@@ -203,14 +204,12 @@ pre {
 }
 
 pre code.language-none {
+  background: none !important;
   color: #e0e0e0;
 }
 
 pre:has(code.language-none) {
   background: #1a1a1a !important;
-}
-code.language-none {
-  background-color: #2e2e2e;
 }
 
 code.highlighter-rouge {
