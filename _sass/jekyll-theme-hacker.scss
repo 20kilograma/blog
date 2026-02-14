@@ -149,7 +149,21 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../images/bullet.png');
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 8px;
+  height: 8px;
+  background-image: url('../images/bullet.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   filter: invert(1);
 }
 
@@ -169,18 +183,12 @@ code {
 }
 
 pre {
-  background: #ffffff !important;
-  border: 1px solid #d0d0d0;
   padding: 10px;
   font-size: 16px;
   border-radius: 2px;
   word-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
-}
-
-pre code {
-  background: #ffffff !important;
 }
 
 code.highlighter-rouge {
