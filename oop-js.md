@@ -2,9 +2,9 @@
   
 <h1> OOP in JavaScript & some differences from the other languages </h1>
 
-</center>
-
 <img src="https://cdn-media-0.freecodecamp.org/2019/07/this-is-javascript.jpeg" />
+
+</center>
 
 # >> About
 
