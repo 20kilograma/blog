@@ -150,16 +150,22 @@ dt {
   font-weight: bold;
 }
 
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 ul li {
   list-style: none;
   position: relative;
+  padding-left: 25px;
 }
 
 ul li::before {
   content: '';
   position: absolute;
-  left: -25px;
-  top: 0.2em;
+  left: 0;
+  top: 0.35em;
   width: 18px;
   height: 18px;
   background-image: url('../images/bullet.png');
