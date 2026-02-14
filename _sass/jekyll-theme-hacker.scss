@@ -151,16 +151,15 @@ dt {
 ul li {
   list-style: none;
   position: relative;
-  padding-left: 20px;
 }
 
 ul li::before {
   content: '';
   position: absolute;
-  left: 0;
-  top: 0.4em;
-  width: 8px;
-  height: 8px;
+  left: -25px;
+  top: 0.2em;
+  width: 18px;
+  height: 18px;
   background-image: url('../images/bullet.png');
   background-size: contain;
   background-repeat: no-repeat;
