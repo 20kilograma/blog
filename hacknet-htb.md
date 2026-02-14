@@ -47,8 +47,7 @@ Response:
 We can now traverse the users QuerySet to extract data for every single user, including their password, name, and email (e.g. <code class="language-none">{% raw %}{{ users.0.password }}{% endraw %}</code>). The goal here is to find the admin's secret account, because we can't interact on posts he didn't interact with and grab credentials that will get us SSH access. What we need to do is, iterate through the user indexes in our payload, trigger the SSTI by liking a post, and extract the data from the response (Essentially: Iterate through all users on your payload -> <code><b>GET</b> /like/{POST_ID}</code> -> <code><b>GET</b> /likes/{POST_ID}</code>).
 <br> <br>
 List of the users, <i>mikey</i> is the secret one.
-<pre><code class="language-none">
-glitch:Gl1tchH@ckz
+<pre><code class="language-none">glitch:Gl1tchH@ckz
 phreaker:Phre@k3rH@ck
 rootbreaker:R00tBr3@ker#
 shadowcaster:Sh@d0wC@st!
