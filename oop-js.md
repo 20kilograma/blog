@@ -81,7 +81,7 @@ console.log(Car.prototype.constructor); // class Car {}
 
 ## &#95;&#95;proto&#95;&#95;
 
-This is the internal reference which points to the <i>objects parent prototype</i>(e.g. <code>Car.prototype == audi.&#95;&#95;proto&#95;&#95 -> true</code>), this has been deprecated in the modern browsers, now there are more modern approaches for Get/Set like <code>Object.getPrototypeOf()</code>
+This is the internal reference which points to the <i>objects parent prototype</i>(e.g. <code>Car.prototype == audi.&#95;&#95;proto&#95;&#95; -> true</code>), this has been deprecated in the modern browsers, now there are more modern approaches for Get/Set like <code>Object.getPrototypeOf()</code>
 or <code>Object.setPrototypeOf()</code>.
 
 ## instanceof
