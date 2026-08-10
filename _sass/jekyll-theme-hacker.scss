@@ -206,6 +206,20 @@ p {
   margin: 0 0 1.25rem;
 }
 
+#main_content p,
+#main_content ul,
+#main_content ol {
+  max-width: 62ch;
+}
+
+#main_content p:has(img),
+#main_content p:has(pre),
+#main_content p:has(> code > br),
+#main_content ul:has(img),
+#main_content ol:has(img) {
+  max-width: none;
+}
+
 #main_content p.is-spacer {
   display: none;
 }
