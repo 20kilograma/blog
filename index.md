@@ -21,14 +21,14 @@
       <a target="_blank" href="https://app.intigriti.com/researcher/profile/0xkira">
         <img width="40" height="40" src="https://pbs.twimg.com/media/D70adQEXoAsh19Q.jpg">
       </a>
-      <a target="_blank" href="">
-        <img width="40" height="40" src="https://logodix.com/logo/64439.png">
+      <a target="_blank" href="https://github.com/20kilograma">
+        <img width="40" height="40" src="https://cdn.simpleicons.org/github/ffffff">
       </a>
       <a target="_blank" href="https://huntr.com/users/20kilograma/">
         <img width="40" height="40" src="https://avatars.githubusercontent.com/u/28839565?v=4">
       </a>
       <a target="_blank" href="https://leetcode.com/20kilograma/">
-        <img width="40" height="40" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png">
+        <img width="40" height="40" src="https://cdn.simpleicons.org/leetcode/ffffff">
       </a>
       <a target="_blank" href="https://yeswehack.com/hunters/20kilograma">
         <img width="40" height="40" src="https://cdn.theorg.com/061445ca-20e5-4d15-819a-bcb80079e553_medium.jpg">
