@@ -85,7 +85,9 @@ mikey@hacknet:~$ cat user.txt
 <br>
 <br>
 Now onto Privilage Escalation to obtain the root flag. If we look at the web app directory, settings.py reveals there is a Django FileBasedCache configuration. It gets triggered when we visit the <i>/explore</i> page and saved to <i>/var/tmp/django_cache</i>.
+
 <img width="751" height="164" alt="image" src="https://github.com/user-attachments/assets/b9bca247-2c56-42ce-80af-d1e5564f2f3f" />
+
 <br>
 When we check our permissions on the .djcache files (<i>/var/tmp/django_cache</i>), we can see we don't have <b>read</b> permission, but we have <b>write</b> permission actually.
 <img width="875" height="116" alt="image" src="https://github.com/user-attachments/assets/5ab4be8f-c3fc-4804-b320-cd8b9c6146b0" />
