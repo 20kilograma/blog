@@ -57,6 +57,12 @@
 
 # >> CVEs
 
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-78262"> > CVE-2026-78262 </a>
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-78284"> > CVE-2026-78284 </a>
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-73996"> > CVE-2026-73996 </a>
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-73358"> > CVE-2026-73358 </a>
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-73355"> > CVE-2026-73355 </a>
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-32549"> > CVE-2026-32549 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2025-32227"> > CVE-2025-32227 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2025-31386"> > CVE-2025-31386 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2024-13518"> > CVE-2024-13518 </a>
