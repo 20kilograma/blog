@@ -1,0 +1,6 @@
+.tmp-fonts/
+.local/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.playwright-mcp/

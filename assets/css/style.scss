@@ -2,3 +2,43 @@
 ---
 
 @import 'jekyll-theme-hacker';
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("{{ '/assets/fonts/SF-Pro.woff2' | relative_url }}") format("woff2");
+  font-weight: 1 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("{{ '/assets/fonts/SF-Pro-Italic.woff2' | relative_url }}") format("woff2");
+  font-weight: 1 1000;
+  font-style: italic;
+  font-display: swap;
+}
+
+@each $name, $weight, $style in
+  ("Regular", 400, normal),
+  ("RegularItalic", 400, italic),
+  ("Medium", 500, normal),
+  ("Semibold", 600, normal),
+  ("Bold", 700, normal),
+  ("BoldItalic", 700, italic) {
+  @font-face {
+    font-family: "SF Mono";
+    src: url("{{ '/assets/fonts/' | relative_url }}SF-Mono-#{$name}.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+button, input, select, textarea {
+  font-family: var(--sans);
+}
+
+kbd, samp {
+  font-family: var(--mono);
+}
