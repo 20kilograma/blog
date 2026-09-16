@@ -2,3 +2,10 @@
 ---
 
 @import 'jekyll-theme-hacker';
+
+#main_content h3 a,
+#main_content h3 a:hover,
+#main_content h3 a:visited {
+  color: inherit;
+  text-shadow: inherit;
+}
