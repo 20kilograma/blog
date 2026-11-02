@@ -56,6 +56,7 @@
 
 # >> CVEs
 
+### <a href="https://www.cve.org/CVERecord?id=CVE-2026-105711"> > CVE-2026-105711 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2026-96682"> > CVE-2026-96682 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2026-78262"> > CVE-2026-78262 </a>
 ### <a href="https://www.cve.org/CVERecord?id=CVE-2026-78284"> > CVE-2026-78284 </a>
