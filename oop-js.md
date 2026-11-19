@@ -2,8 +2,6 @@
   
 <h1> OOP in JavaScript & some differences from the other languages </h1>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/JavaScript_code.png" />
-
 </center>
 
 # >> About
